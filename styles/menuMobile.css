@@ -65,28 +65,31 @@
         background-position: center;
         border: 8px solid rgba(0, 0, 0, 0.95);
         border-radius: 10px;
-        
+
     }
 
     /* ------------------------------------- */
     /* MOBILE NAV LINKS */
     /* ------------------------------------- */
-    .mobile-nav ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+.mobile-nav ul{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    width:min(90vw,650px);
+    height: 95dvh;
+    margin:0;
+    padding:2vh 0;
+    list-style:none;
+    overflow-y:auto;
+}
 
     .mobile-nav li {
         border-radius: 15px;
         margin: 0;
         background: rgba(0, 0, 0, 0.95);
         width: 100%;
+        max-height: 12dvh;
     }
 
     .mobile-nav li:hover {
@@ -100,13 +103,15 @@
         border-radius: 15px;
         color: white;
         text-decoration: none;
-        font-size: 2rem;
+        font-size:clamp(1.3rem,2.2vh,2.2rem);
         letter-spacing: 2px;
         text-align: center;
         transition:
             opacity 0.3s ease,
             background 0.3s ease;
         box-sizing: border-box;
+        width: 100%;
+        height: 100%;
     }
 
     .mobile-nav a:hover {
