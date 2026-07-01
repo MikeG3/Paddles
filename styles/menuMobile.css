@@ -79,9 +79,8 @@
     width:min(90vw,650px);
     height: 95dvh;
     margin:0;
-    padding:2vh 0;
+    padding: 0;
     list-style:none;
-    overflow-y:auto;
 }
 
     .mobile-nav li {
@@ -89,7 +88,7 @@
         margin: 0;
         background: rgba(0, 0, 0, 0.95);
         width: 100%;
-        max-height: 12dvh;
+        max-height: 10dvh;
     }
 
     .mobile-nav li:hover {
