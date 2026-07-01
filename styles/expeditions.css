@@ -34,7 +34,6 @@ body {
     background-image: url("../images/gallery/benjis/31.jpg");
     background-size: cover;
     background-position: center;
-    animation: zoomAndPan 20s infinite;
 }
 
 /* ========================================= */
