@@ -172,6 +172,12 @@ body {
 .image-two {
     background-image: url("../images/gallery/benjis/17.jpg");
 }
+
+.image-three {
+    /* 5 13 17 */
+    background-image: url("../images/gallery/benjis/5.jpg");
+}
+
 /*
 CHAPTER DIVIDER IMAGE
 */
@@ -489,6 +495,7 @@ CHAPTER ( - CHAPTER 3 - INTO THE NORTH CHANNEL)
     background-image: url("../images/heroslides/benjis.jpg");
 }
 
+
 /*=========================================
 CHAPTER HERO
 =========================================*/
@@ -782,3 +789,4 @@ MOBILE
     }
 
 }
+
