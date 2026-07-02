@@ -733,10 +733,11 @@ TEXT
     font-family: "Permanent Marker", cursive;
 }
 
-.quote {
-    font-size: 1.7rem;
+.quote, .quote p {
+    font-size: 2rem;
     font-style: italic;
     text-align: center;
+    font-family: 'story script';
 }
 
  /*=========================================
