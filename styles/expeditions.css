@@ -437,6 +437,12 @@ blockquote {
     margin-left: 10%;
     margin-right: auto;
 }
+ @media (max-width: 768px){
+    .planning-map {
+        margin: 0;
+        width: 100%;
+    }
+}
 
 .embedded-image img{
     border-radius: 22px;
@@ -454,6 +460,13 @@ blockquote {
     width: 60%;
     aspect-ratio:16 / 9;
     margin-left: 20%;
+}
+
+@media (max-width: 768px){
+    .embedded-video iframe {
+        width: 96%;
+        margin-left: 2%;
+    }
 }
 
 /*=========================================================
