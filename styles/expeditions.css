@@ -31,7 +31,7 @@ body {
     position: absolute;
     inset: 0;
     /* 5 29 30 31*/
-    background-image: url("../images/gallery/benjis/31.jpg");
+    background-image: url("../images/gallery/benjis/31.webp");
     background-size: cover;
     background-position: center;
 }
@@ -170,19 +170,19 @@ body {
 }
 
 .image-two {
-    background-image: url("../images/gallery/benjis/17.jpg");
+    background-image: url("../images/gallery/benjis/17.webp");
 }
 
 .image-three {
-    background-image: url("../images/gallery/benjis/5.jpg");
+    background-image: url("../images/gallery/benjis/5.webp");
 }
 
 .image-four {
-    background-image: url("../images/gallery/benjis/4.jpg");
+    background-image: url("../images/gallery/benjis/4.webp");
 }
 
 .image-five {
-    background-image: url("../images/trips/Sunset night 2.jpg");
+    background-image: url("../images/trips/Sunset night 2.webp");
 }
 
 /*
@@ -500,7 +500,7 @@ CHAPTER ( - CHAPTER 3 - INTO THE NORTH CHANNEL)
 }
 
 .north-channel-chapter {
-    background-image: url("../images/heroslides/benjis.jpg");
+    background-image: url("../images/heroslides/benjis.webp");
 }
 
 
@@ -842,7 +842,7 @@ MOBILE
 
 .island-revealed-chapter {
     position: relative;
-    background-image: url("../images/gallery/benjis/4.jpg");
+    background-image: url("../images/gallery/benjis/4.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

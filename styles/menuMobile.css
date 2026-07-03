@@ -60,7 +60,7 @@
         visibility: hidden;
         transition: 0.4s;
         z-index: 1000;
-        background-image: url('../images/burger_menu_image.jpg');
+        background-image: url('../images/burger_menu_image.webp');
         background-size: cover;
         background-position: center;
         border: 8px solid rgba(0, 0, 0, 0.95);
