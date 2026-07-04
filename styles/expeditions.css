@@ -257,7 +257,10 @@ blockquote {
     z-index: 2;
     padding: 140px 0;
     background: rgba(10, 10, 10, 0.82);
+}
 
+.chapter-13-header p {
+    margin-bottom: 20px !important;
 }
 
 .expedition-section.dark {
@@ -268,7 +271,6 @@ blockquote {
 .expedition-container {
     width: min(900px, 88%);
     margin: auto;
-
 }
 
 /*=========================================================
@@ -927,6 +929,10 @@ MOBILE
     height: 50dvh;
 }
 
+.image-spacer-full {
+    height: 60dvh;
+}
+
 .action-sequence {
     font-size: clamp(1.4rem, 2vw, 2rem);
     font-weight: 600;
@@ -944,6 +950,29 @@ MOBILE
 /*--------------------------------
     CHAPTER 13
 ---------------------------------*/
-.ch13 {
-    background-color: #79c6ff;
+.chapter-thirteen {
+    position: relative;
+    background-image: url("../images/trips/Daytime View Southwest.webp");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.chapter-thirteen::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:
+    radial-gradient(
+        circle,
+        rgba(0,0,0,0) 35%,
+        rgba(0,0,0,.55) 100%
+    );
+
+    z-index:1;
+}
+.chapter-thirteen>* {
+    position: relative;
+    z-index: 2;
 }
