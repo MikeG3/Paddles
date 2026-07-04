@@ -945,6 +945,7 @@ MOBILE
 
 .white-text {
     color: white;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /*--------------------------------
