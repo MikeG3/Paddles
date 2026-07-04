@@ -948,6 +948,11 @@ MOBILE
     background-color: rgba(0, 0, 0, 0);
 }
 
+/* CHAPTER 11 */
+chapter-11-header {
+    max-width: 90dvw;
+}
+
 /*--------------------------------
     CHAPTER 13
 ---------------------------------*/
