@@ -250,7 +250,7 @@ blockquote {
 }
 
 /*=========================================================
-  EXPEDITION STORY LAYOUT
+    EXPEDITION STORY LAYOUT
 =========================================================*/
 .expedition-section {
     position: relative;
@@ -271,6 +271,10 @@ blockquote {
 .expedition-container {
     width: min(900px, 88%);
     margin: auto;
+}
+
+.expedition-container img {
+    width: 100%;
 }
 
 /*=========================================================
