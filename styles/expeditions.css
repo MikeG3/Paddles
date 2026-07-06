@@ -452,8 +452,6 @@ blockquote {
 .planning-map {
     align-items: center;
     width: 80%;
-    margin-left: 10%;
-    margin-right: auto;
 }
 
 @media (max-width: 768px) {
