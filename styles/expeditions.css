@@ -1077,3 +1077,7 @@ chapter-11-header {
         height: auto;
     }
 }
+
+.ch13-image-1 {
+    background-image: url("../images/trips/Western Shoreline Trees.webp");   
+}
