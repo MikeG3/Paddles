@@ -1,17 +1,6 @@
 /* ========================================= */
 /* TEXT OVERLAY */
 /* ========================================= */
-.hero-overlay {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    width: 90%;
-    max-width: 900px;
-}
 
 .hero-overlay h1 {
     font-size: 4rem;
