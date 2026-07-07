@@ -1010,7 +1010,7 @@ chapter-11-header {
     z-index: 2;
 }
 
-.chapter-13-lead{
+.chapter-13-lead {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
 }
@@ -1030,7 +1030,7 @@ chapter-11-header {
     margin-bottom: 0;
     padding-bottom: 0;
     height: 240px;
-        background:
+    background:
         linear-gradient(to bottom,
             rgba(0, 0, 0, .10),
             rgba(0, 0, 0, .20) 20%,
@@ -1040,18 +1040,18 @@ chapter-11-header {
 
 }
 
-.chapter-thirteen{
-    margin:0;
-    padding-bottom:0;
+.chapter-thirteen {
+    margin: 0;
+    padding-bottom: 0;
 }
 
-.expedition-section-13{
-    margin-top:0;
+.expedition-section-13 {
+    margin-top: 0;
 }
 
-.chapter-13-quote { 
-  margin-left: auto;
-  margin-right: auto; 
+.chapter-13-quote {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photo-row {
@@ -1062,9 +1062,9 @@ chapter-11-header {
     width: min(1200px, 92%);
 }
 
-.photo-full-width{
+.photo-full-width {
     width: 100%;
-    border-radius: 16px; 
+    border-radius: 16px;
 }
 
 .photo-row {
@@ -1101,7 +1101,7 @@ chapter-11-header {
 }
 
 .ch13-image-1 {
-    background-image: url("../images/trips/Western shoreline 2.webp");   
+    background-image: url("../images/trips/Western shoreline 2.webp");
 }
 
 .image-six {
@@ -1117,18 +1117,120 @@ chapter-11-header {
     height: 70dvh;
 }
 
+.image-nine {
+    background-image: url("../images/trips/Island on the benjis.webp");
+    height: 85dvh;
+}
+
 
 @media (max-width: 500px) {
     .image-three {
         background-position: 45%;
     }
+
     .image-five {
         background-position: 70%;
     }
+
     .image-seven {
         background-position: 44%;
     }
+
     .image-eight {
         background-position: 14%;
     }
+}
+
+/*
+=========================================
+  JOURNEY END SECTION
+*/
+.journey-end {
+    background: #050505;
+    color: white;
+    padding: 180px 20px;
+    text-align: center;
+}
+
+.journey-end-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.journey-end p {
+    line-height: 1.9;
+    margin: 30px auto;
+}
+
+.journey-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    margin: 80px 0;
+}
+
+.journey-card {
+    display: block;
+    padding: 35px;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 18px;
+    color: white;
+    text-decoration: none;
+    transition: .35s;
+}
+
+.journey-card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, .09);
+    border-color: rgba(255, 255, 255, .35);
+}
+
+.journey-card span {
+    font-size: 2.8rem;
+}
+
+.journey-card h3 {
+    margin: 18px 0 10px;
+}
+
+.journey-footer {
+    margin-top: 120px;
+}
+
+.journey-footer p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.1rem;
+    opacity: .8;
+}
+
+.journey-footer h3 {
+    margin-top: 25px;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+/*      ANIMATIONS      */
+@media (max-width: 600px) {
+
+
+    .image-two, .image-three, .image-five, .image-six, .image-seven, .image-eight, .image-nine {
+        animation: pandLeftAndRight 20s infinite;
+    }
+
+    @keyframes pandLeftAndRight {
+        0% {
+            background-position: 10%;
+        }
+
+        50% {
+            background-position: 90%;
+        }
+
+        100% {
+            background-position: 10%;
+        }
+
+    }
+
 }
