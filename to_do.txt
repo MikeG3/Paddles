@@ -1,8 +1,4 @@
-css 'hero-overlay' redundant overlapping in 
-expeditions.css / expeditions_animations.css
-&
-background.css / backgrounMobile.css
-FIX THEN REMOVE expeditions_animations.css file
+
 
 Add legend to map
 
