@@ -17,16 +17,6 @@ Create trip reports:
 - Creak Island
 
 
-Add Places I want to visit to map:
-- Painted Rocks Georgian Bay
-- Mink and McCoy Islands
-- Bustards
-- Pictured Rocks Michigan
-- Apostle Islands
-- Lake Superior Prov Park
-- Pawkasa National Park
-- Lake Superior Marine Conservation Area
-- Baie Fine
 Add campsites to map:
 - Etches (conversion)
 - West Fox (conversion)
