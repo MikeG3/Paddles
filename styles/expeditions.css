@@ -1091,3 +1091,24 @@ chapter-11-header {
 .image-seven {
     background-image: url("../images/trips/last sunset.webp");
 }
+
+.image-eight {
+    background-image: url("../images/gallery/benjis/16.webp");
+    height: 70dvh;
+}
+
+
+@media (max-width: 500px) {
+    .image-three {
+        background-position: 45%;
+    }
+    .image-five {
+        background-position: 70%;
+    }
+    .image-seven {
+        background-position: 44%;
+    }
+    .image-eight {
+        background-position: 14%;
+    }
+}
