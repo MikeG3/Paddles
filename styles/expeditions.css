@@ -1050,9 +1050,11 @@ chapter-11-header {
 .photo-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-bottom: 30px;
+    gap: 20px;
+    margin-bottom: 20px;
     width: 100%;
+    margin-top: 20px;
+    padding-top: 0;
 }
 
 .photo-row img {
@@ -1079,5 +1081,16 @@ chapter-11-header {
 }
 
 .ch13-image-1 {
-    background-image: url("../images/trips/Western Shoreline Trees.webp");   
+    background-image: url("../images/trips/Western shoreline 2.webp");   
+}
+
+.ch13-image-2 {
+    background-image: url("../images/trips/epic paddle break view.webp");   
+}
+
+@media (max-width: 600px) {
+    .ch13-image-2 {
+        background-position: 30%;
+
+    }
 }
