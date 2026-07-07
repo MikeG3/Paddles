@@ -1,35 +1,4 @@
 /* ========================================= */
-/* SLOW ZOOM */
-/* ========================================= */
-@keyframes zoomAnimation {
-
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-/* ========================================= */
-/* DARK OVERLAY */
-/* ========================================= */
-.hero-slideshow::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-        linear-gradient(
-            to bottom,
-            rgba(0,0,0,0.3),
-            rgba(0,0,0,0.45)
-        );
-    z-index: 1;
-}
-
-/* ========================================= */
 /* TEXT OVERLAY */
 /* ========================================= */
 .hero-overlay {
@@ -52,21 +21,10 @@
     font-family: rock salt;
 }
 
-.hero-overlay p {
-    font-size: 1.3rem;
-    line-height: 1.6;
-    overflow: hidden;
-    font-family: story script;
-}
 
 /* FOR MOBILE, MAKE THE IMAGES SCROLL LEFT TO RIGHT INSTEAD OF ZOMMING IN */
 
 @media (max-width: 768px) {
-
-    /* HERO SECTION */
-    .hero-slideshow {
-        height: 100dvh;
-    }
 
     /* HERO TEXT */
     .hero-overlay {
