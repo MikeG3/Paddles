@@ -470,9 +470,9 @@ blockquote {
 }
 
 .embedded-video iframe {
-    width: 60%;
+    width: 100%;
     aspect-ratio: 16 / 9;
-    margin-left: 20%;
+    margin-left: auto;
 }
 
 @media (max-width: 768px) {
