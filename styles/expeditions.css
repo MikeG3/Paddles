@@ -1084,13 +1084,6 @@ chapter-11-header {
     background-image: url("../images/trips/Western shoreline 2.webp");   
 }
 
-.ch13-image-2 {
-    background-image: url("../images/trips/epic paddle break view.webp");   
-}
-
-@media (max-width: 600px) {
-    .ch13-image-2 {
-        background-position: 30%;
-
-    }
+.image-six {
+    background-image: url("../images/gallery/benjis/23.webp");
 }
