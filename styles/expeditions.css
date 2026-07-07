@@ -87,14 +87,6 @@ body {
     color: white;
 }
 
-.hero-overlay h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    overflow: hidden;
-    font-family: rock salt;
-}
-
 .hero-overlay p {
     font-size: 1.3rem;
     line-height: 1.6;
@@ -106,16 +98,6 @@ body {
 /* HERO TEXT                                 */
 /* ========================================= */
 
-.hero-overlay {
-    position: absolute;
-    z-index: 2;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .hero-location {
     letter-spacing: 4px;
@@ -128,10 +110,6 @@ body {
     margin: .3em 0;
 }
 
-.hero-date {
-    font-size: 1.2rem;
-    opacity: .85;
-}
 
 .scroll-arrow {
     margin-top: 80px;
