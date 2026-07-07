@@ -40,7 +40,7 @@ body {
 /* ========================================= */
 /* TEXT OVERLAY */
 /* ========================================= */
-.hero-overlay {
+.hero-overlay-expedition {
     position: absolute;
     inset: 0;
     z-index: 2;
@@ -58,18 +58,46 @@ body {
     max-width: 900px;
 }
 
-.hero-overlay p {
+.hero-overlay-expedition h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    font-family: rock salt;
+}
+
+.hero-overlay-expedition p {
     font-size: 1.3rem;
     line-height: 1.6;
     overflow: hidden;
     font-family: story script;
 }
 
+/* HERO OVERLAY FOR MOBILE */
+@media (max-width: 768px) {
+
+    /* HERO TEXT */
+    .hero-overlay-expedition {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .hero-overlay-expedition h1 {
+        font-size: 2.3rem;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .hero-overlay-expedition p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+}
 
 /* ========================================= */
 /* HERO TEXT                                 */
 /* ========================================= */
-
 .hero-location {
     letter-spacing: 4px;
     text-transform: uppercase;
