@@ -36,41 +36,6 @@ body {
     background-position: center;
 }
 
-/* ========================================= */
-/* SLOW ZOOM */
-/* ========================================= */
-@keyframes zoomAndPan {
-
-    0% {
-        transform: scale(150%);
-        background-position: 20% left;
-    }
-
-    /* Pan back left */
-    50% {
-        transform: scale(150%);
-        background-position: 20% right;
-    }
-
-    100% {
-        transform: scale(150%);
-        background-position: 20% left;
-    }
-}
-
-/* ========================================= */
-/* DARK OVERLAY */
-/* ========================================= */
-.hero-slideshow::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background:
-        linear-gradient(to bottom,
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.45));
-    z-index: 1;
-}
 
 /* ========================================= */
 /* TEXT OVERLAY */
@@ -99,6 +64,7 @@ body {
     overflow: hidden;
     font-family: story script;
 }
+
 
 /* ========================================= */
 /* HERO TEXT                                 */
