@@ -1193,7 +1193,7 @@ chapter-11-header {
 /*      ANIMATIONS      */
 @media (max-width: 600px) {
 
-       .image-two {
+    .image-two {
         animation: panLeftAndRight2 20s infinite;
     }
 
@@ -1209,6 +1209,23 @@ chapter-11-header {
         }
     }
 
+    .image-three {
+        animation: panLeftAndRight3 20s infinite;
+    }
+
+    @keyframes panLeftAndRight3 {
+        0% {
+            background-position: 18%;
+        }
+        50% {
+            background-position: 100%;
+        }
+        100% {
+            background-position: 18%;
+        }
+    }
+
+    
     .image-six {
         animation: panLeftAndRight6 20s infinite;
     }
@@ -1241,7 +1258,7 @@ chapter-11-header {
         }
     }
 
-    .image-three, .image-five, .image-eight, .image-nine {
+    .image-five, .image-eight, .image-nine {
         animation: pandLeftAndRight 20s infinite;
     }
 
