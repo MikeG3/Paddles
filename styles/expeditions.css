@@ -1192,8 +1192,24 @@ chapter-11-header {
 /*      ANIMATIONS      */
 @media (max-width: 600px) {
 
+       .image-two {
+        animation: panLeftAndRight2 20s infinite;
+    }
 
-    .image-two, .image-three, .image-five, .image-six, .image-seven, .image-eight, .image-nine {
+    @keyframes panLeftAndRight2 {
+        0% {
+            background-position: 28%;
+        }
+        50% {
+            background-position: 96%;
+        }
+        100% {
+            background-position: 28%;
+        }
+    }
+
+
+    .image-three, .image-five, .image-six, .image-seven, .image-eight, .image-nine {
         animation: pandLeftAndRight 20s infinite;
     }
 
@@ -1201,15 +1217,12 @@ chapter-11-header {
         0% {
             background-position: 10%;
         }
-
         50% {
             background-position: 90%;
         }
-
         100% {
             background-position: 10%;
         }
-
     }
 
 }
