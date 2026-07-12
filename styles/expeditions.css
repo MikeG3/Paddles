@@ -528,13 +528,13 @@ STORY CARDS
 =========================================*/
 
 .story-card {
-    background: rgba(10, 10, 10, .72);
+    background: rgba(10, 10, 10, .87);
     backdrop-filter: blur(12px);
     color: white;
     padding: 45px;
     border-radius: 22px;
     margin: 140px auto;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .75);
 }
 
 /* widths */
