@@ -965,6 +965,7 @@ chapter-11-header {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    animation: pandLeftAndRight 20s infinite;
 }
 
 .chapter-thirteen::before {
@@ -1208,8 +1209,23 @@ chapter-11-header {
         }
     }
 
+    .image-six {
+        animation: panLeftAndRight6 20s infinite;
+    }
 
-    .image-three, .image-five, .image-six, .image-seven, .image-eight, .image-nine {
+    @keyframes panLeftAndRight6 {
+        0% {
+            background-position: 7%;
+        }
+        50% {
+            background-position: 73%;
+        }
+        100% {
+            background-position: 7%;
+        }
+    }
+
+    .image-three, .image-five, .image-seven, .image-eight, .image-nine {
         animation: pandLeftAndRight 20s infinite;
     }
 
