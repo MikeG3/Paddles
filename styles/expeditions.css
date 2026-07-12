@@ -1215,13 +1215,13 @@ chapter-11-header {
 
     @keyframes panLeftAndRight3 {
         0% {
-            background-position: 18%;
+            background-position: 21%;
         }
         50% {
             background-position: 100%;
         }
         100% {
-            background-position: 18%;
+            background-position: 21%;
         }
     }
 
