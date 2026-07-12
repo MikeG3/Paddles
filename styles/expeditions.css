@@ -1225,7 +1225,23 @@ chapter-11-header {
         }
     }
 
-    .image-three, .image-five, .image-seven, .image-eight, .image-nine {
+    .image-seven {
+        animation: panLeftAndRight7 20s infinite;
+    }
+
+    @keyframes panLeftAndRight7 {
+        0% {
+            background-position: 20%;
+        }
+        50% {
+            background-position: 58%;
+        }
+        100% {
+            background-position: 20%;
+        }
+    }
+
+    .image-three, .image-five, .image-eight, .image-nine {
         animation: pandLeftAndRight 20s infinite;
     }
 
