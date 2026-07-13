@@ -1,0 +1,110 @@
+ <!--
+        <section class="content" id="bio">
+
+            <div class="bio">
+
+                <h2>Bio</h2>
+            -->
+        <!-- MIX IN PICTURES AND QUOTES, MAKE COLUMNS TO OFFSET PICTURES TO THE LEFT AND RIGHT -->
+        <!--
+                <p>
+                    My fascination with paddling began long before I ever owned a kayak.
+                    As a kid, I remember trying one briefly at camp and being instantly
+                    intrigued by the freedom of it. Around the age of ten, my family took
+                    a canoe trip through Algonquin Park. We were far from an outdoorsy
+                    family, and I still remember the clouds of bugs and moments of
+                    discomfort, but something about arriving at a remote campsite by water
+                    stayed with me.
+                </p>
+
+                <p>
+                    The idea of traveling across lakes and wilderness to “find your own
+                    home in nature” never really left my mind.
+                </p>
+
+                <p>
+                    Years later, after plenty of dreaming and very little experience,
+                    I rented small recreational kayaks with a friend for an overnight trip
+                    in La Mauricie. We had cheap gear, almost no idea what we were doing,
+                    and nearly froze during the night, but it was unforgettable. Shortly
+                    after, at 32 years old, I finally bought my first used sea kayak.
+                    Originally, it was mostly for fitness and to spend more time on the
+                    water, something I had always been drawn toward.
+                </p>
+
+                <p>
+                    Before long, I set out on my first kayak camping trip through the
+                    Thousand Islands — a place I had wanted to explore for years. That trip
+                    almost never happened. I had originally planned it with someone I was
+                    dating at the time, but after weeks of planning, she unexpectedly broke
+                    up with me just before the trip. I nearly stayed home entirely.
+                    Instead, nervous and uncertain, I loaded my kayak alone and launched
+                    into the St. Lawrence River by myself.
+                </p>
+
+                <p>
+                    Looking back, that moment changed everything.
+                </p>
+
+                <p>
+                    I realized I didn’t need to wait for the perfect circumstances,
+                    schedules, or other people to begin living the adventures I had been
+                    imagining for years. Since then, solo paddling has become something I
+                    deeply value — the freedom to travel at my own pace, stop wherever I
+                    want, photograph a shoreline for an hour, or push through miles of open
+                    water simply because conditions feel right.
+                </p>
+
+                <p>
+                    A few seasons later, during the first summer of the COVID lockdowns,
+                    I drove overnight to the Bruce Peninsula after seeing photographs of
+                    Flowerpot Island and the turquoise waters of Georgian Bay. Arriving
+                    before sunrise after barely sleeping, I launched with little planning
+                    and far more confidence than experience. Within only a couple of
+                    kilometers offshore, I realized just how exposed and dangerous the
+                    conditions could become.
+                </p>
+
+                <p>
+                    But I also realized something else:
+                    places like this actually existed.
+                </p>
+
+                <p>
+                    Growing up around the St. Lawrence near Montreal, I had never imagined
+                    water could look that way — clear, emerald, endless. Exploring the
+                    coastline that day completely changed my perception of the Great Lakes.
+                    I became obsessed with Georgian Bay and the North Channel almost
+                    immediately.
+                </p>
+
+                <p>
+                    Since then, I’ve explored places like Killarney, the Benjamin Islands,
+                    McGregor Bay, the Fox Islands, the Bay of Islands, Providence Bay, and
+                    the coastlines around Manitoulin Island, with many more expeditions
+                    still waiting ahead.
+                </p>
+
+                <p>
+                    Paddling has become far more than a hobby for me. It has changed how I
+                    see time, freedom, risk, and the importance of pursuing experiences
+                    while we still can. Canadian summers are short. Calm weather windows
+                    don’t always align with vacation schedules. Injuries, responsibilities,
+                    and life itself are unpredictable.
+                </p>
+
+                <p>
+                    Spending time on the water has taught me not to postpone the things
+                    that make me feel alive.
+                </p>
+
+                <p>
+                    This website is a place to document those journeys — the landscapes,
+                    routes, photographs, mistakes, lessons, and moments of awe that keep
+                    pulling me farther toward the horizon.
+                </p>
+
+            </div>
+
+        </section>
+        -->

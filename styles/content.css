@@ -1,3 +1,7 @@
+.hero-section-gap {
+    margin-top: 100dvh;
+}
+
 .content {
     background: radial-gradient(ellipse at right,
             transparent 5%,

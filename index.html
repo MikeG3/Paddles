@@ -155,7 +155,408 @@
     <main>
 
 
-        <!-- ========================================= -->
+        <div class="hero-section-gap"></div>
+
+
+        <!-- MAP SECTION -->
+        <section id="map-section">
+
+            <!-- LOCATIONS -->
+            <section class="location-explorer">
+
+
+                <h2 class="map-section-header">Explore The Places</h2>
+                <div class="map-quote">
+                    <p>
+                        Some places were planned months in advance, others were discovered by accident.
+                        Every one left its mark.
+                    </p>
+                </div>
+
+                <!-- BRUCE -->
+                <div id="map-locations-start" class="location-group">
+                    <h3>Bruce Peninsula</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('lionshead', this)">
+                            Lions Head
+                        </button>
+                        <button onclick="showLocation('driftwoodcove', this)">
+                            Driftwood Cove
+                        </button>
+                        <button onclick="showLocation('grotto', this)">
+                            The Grotto
+                        </button>
+                        <!-- DUNKS BAY. DYERS BAY -->
+                        <button onclick="showLocation('dyersBay', this)">
+                            Dyers Bay
+                        </button>
+                        <button onclick="showLocation('dunksBay', this)">
+                            Dunks Bay
+                        </button>
+                        <button onclick="showLocation('littleCove', this)">
+                            Little Cove
+                        </button>
+                    </div>
+                </div>
+                <!-- NORTH CHANNEL -->
+                <div class="location-group">
+                    <h3>North Channel</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('benjamin', this)">
+                            Benjamin Islands
+                        </button>
+                        <button onclick="showLocation('mcgregor', this)">
+                            McGregor Bay
+                        </button>
+                        <button onclick="showLocation('bayofislands', this)">
+                            Bay of Islands
+                        </button>
+                        <!-- ADD THESE LOCATIONS: FOX ISLAND, CREAK ISLAND, AIRD -->
+                        <button onclick="showLocation('foxIsland', this)">
+                            Fox Island
+                        </button>
+                        <button onclick="showLocation('creakIsland', this)">
+                            Creak Island
+                        </button>
+                        <button onclick="showLocation('airdIsland', this)">
+                            Aird Islands
+                        </button>
+                    </div>
+                </div>
+                <!-- KILLARNEY -->
+                <div class="location-group">
+                    <h3>Killarney</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('killarneybay', this)">
+                            Killarney Bay
+                        </button>
+                        <button onclick="showLocation('coveredportage', this)">
+                            Covered Portage Cove
+                        </button>
+                        <!-- ADD THESE LOCATIONS: GEORGE ISLAND, THOMAS BAY, SNUG HARBOR -->
+                        <button onclick="showLocation('georgeIsland', this)">
+                            George Island
+                        </button>
+                        <button onclick="showLocation('thomasBay', this)">
+                            Thomas Bay
+                        </button>
+                        <button onclick="showLocation('snugHarbor', this)">
+                            Snug Harbor
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <!-- GEORGIAN BAY -->
+                <div class="location-group">
+                    <h3>Northern Georgian Bay</h3>
+                    <div class="location-list"><button onclick="showLocation('phillipedward', this)">
+                            Philip Edward Island
+                        </button>
+                        <button onclick="showLocation('westfox', this)">
+                            West Fox Island
+                        </button>
+                        <!-- ADD THESE LOCATIONS: Etches, Sly Fox, Martin-->
+                        <button onclick="showLocation('slyFoxIsland', this)">
+                            Sly Fox Island
+                        </button>
+                        <button onclick="showLocation('martinsIsland', this)">
+                            Martins Island
+                        </button>
+                        <button onclick="showLocation('etchesIsland', this)">
+                            Etches Island
+                        </button>
+                    </div>
+                </div>
+                <!-- ST LAWRENCE -->
+                <div class="location-group">
+                    <h3>Saint-Lawrence River</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('thousandislands', this)">
+                            Thousand Islands
+                        </button>
+                        <!-- ADD THESE LOCATIONS: LACHINE, LES COTEAUX, ST NICOLET, SAINTE BARBE -->
+                        <button onclick="showLocation('lachine', this)">
+                            Lachine
+                        </button>
+                        <button onclick="showLocation('dowkerIsland', this)">
+                            Dowker Island
+                        </button>
+                        <button onclick="showLocation('lescoteaux', this)">
+                            Les Coteaux
+                        </button>
+                        <button onclick="showLocation('saintebarbe', this)">
+                            Sainte-Barbe
+                        </button>
+                        <button onclick="showLocation('longsault', this)">
+                            Long Sault Parkway
+                        </button>
+                        <button onclick="showLocation('stnicolet', this)">
+                            St-Nicolet
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <!-- SAGUENAY -->
+                <div class="location-group">
+                    <h3>Québec</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('baieeternite', this)">
+                            Baie Éternité
+                        </button>
+                        <!-- lac stukley, mauricie -->
+                        <button onclick="showLocation('stukley', this)">
+                            Lac Stukley
+                        </button>
+                        <button onclick="showLocation('mauricie', this)">
+                            Mauricie National Park
+                        </button>
+                    </div>
+                </div>
+                <div class="location-group">
+                    <h3>Ontario</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('algonquin', this)">
+                            Algonquin Park
+                        </button>
+                        <button onclick="showLocation('provBay', this)">
+                            Providence Bay
+                        </button>
+                        <button onclick="showLocation('timberBay', this)">
+                            Timber Bay Nature Preserve
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <div id="map"></div>
+            <br> <br>
+
+            <div class="location-list-return-to-map-locations">
+                <button>
+                    <a class="location-list-link" href="index.html#map-locations-start">Return to all map locations</a>
+                </button>
+            </div>
+
+            <br> <br>
+
+        </section>
+
+
+       
+        
+        <section class="featured-adventure" id="adventure">
+
+            <h1 class="adventures-main-header">KAYAK ADVENTURES</h1>
+
+            <!-- NORTH CHANNEL-->
+            <div class="adventure-header-container">
+                <h2 class="adventure-header">THE NORTH CHANNEL</h2>
+            </div>
+            <div class="adventures-divider"></div>
+            <div class="adventure-grid">
+                <!-- BENJAMIN ISLANDS 1-->
+                <a href="trips/Benjamin_Islands_2023.html" class="adventure-card">
+                    <img src="images/adventures/Benjis1.webp" alt="Benjamin Islands" loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">North Channel • 2023</div>
+                        <h2>Benjamin Islands I</h2>
+                        <p>
+                            Pink granite juxtaposed with white quartzite and some of the finest kayak camping I have
+                            ever experienced.
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- BENJAMIN ISLANDS 2-->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/Benjis2.webp"
+                        alt="A sunset sky over smooth red granite rocks and pine trees on North Benjamin Island in the North Channel of Lake Huron in Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">North Channel • 2025</div>
+                        <h2>Benjamin Islands II</h2>
+                        <p>
+                            A shortcut to revisit the jewel of the North Channel with a tour of Fox Island
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- MCGREGOR BAY -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/McGregorBay.webp"
+                        alt="A scenic nature picture of rocks, trees and water in McGregor Bay, Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Mouth of the North Channel</div>
+                        <h2>McGregor Bay</h2>
+                        <p>
+                            Endless islands and channels between the white quartzite peaks of Killarney.
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- CREAK ISLAND -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/CreakIsland.webp"
+                        alt="A Pine tree overlooking the open water of the North Channel in Lake Huron on Creak Island"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">North Channel • 2024</div>
+                        <h2>Creak Island & Snug Harbor</h2>
+                        <p>
+                            An island at the edge of the Killarney Bay, with limestone and fossils on one side, and
+                            white quartzite on the other.
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- BAY OF ISLANDS -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/BayOfIslands.webp"
+                        alt="A sunny sky reflectiong off of the water dotted with islands in Bay of Islands in Lake Huron's North Channel in Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">North Channel • 2023</div>
+                        <h2>Bay of Islands</h2>
+                        <p>
+                            The eastern entrance to the North Channel, dotted with islands, crowned with the LaClohe
+                            Mountains to the north.
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- KILLARNEY BAY -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/KillarneyBay.webp"
+                        alt="Sharp and block shaped white quartzite cliffs along the water's edge in the Killarney Bay in Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Killarney Day Trip</div>
+                        <h2>Killarney Bay</h2>
+                        <p>
+                            Striking white quartzite cliffs and deep coves, a favorite anchorage amongst boaters.
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- NORTHERN GEORGIAN BAY -->
+            <div class="adventure-header-container">
+                <h2 class="adventure-header">PHILLIP EDWARD ISLAND</h2>
+            </div>
+            <div class="adventures-divider"></div>
+            <div class="adventure-grid">
+
+                <!-- WEST FOX ISLAND -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/WestFox.webp"
+                        alt="Wave shaped rock formations on West Fox Island in the Georgian Bay near Killarney, Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Killarney Region • 2023</div>
+                        <h2>West Fox Island</h2>
+                        <p>
+                            Wave shaped rock formations in pink granite at the edge southern edge of the Fox Islands
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- MARTINS ISLAND -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/MartinsIsland.webp"
+                        alt="Smooth Granite Rocks of Martins Island in the Georgian Bay near Killarney, Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Killarney Region • 2024</div>
+                        <h2>Martins Island</h2>
+                        <p>
+                            Smooth rocks, white pines, coves and magnificent views.
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!-- ETCHES -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/EtchesIsland.webp"
+                        alt="White crystals on granite rocks with orange lichen on An island in the Georgian Bay near Killarney, Ontario named Etches Island"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Killarney Region • 2022</div>
+                        <h2>Etches Island</h2>
+                        <p>
+                            Unamed on many maps, Etches island is like a treasure box of metamorphisized shield rock
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- BRUCE PENINSULA -->
+            <div class="adventure-header-container">
+                <h2 class="adventure-header">BRUCE PENINSULA</h2>
+                <div class="adventures-divider"></div>
+            </div>
+            <div class="adventure-grid">
+                <!--    GROTTO     -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/DunksToGrotto2025.webp"
+                        alt="A white limestone cliffs with grays and blacks and trees on top, and clear turqouise water below in Driftwood Cove in Bruce PEninsula National Park"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Bruce Peninsula Day Trip</div>
+                        <h2>The Grotto</h2>
+                        <p>
+                            Towering cliffs, sea caves and emerald waters
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!--    LIONS HEAD     -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/LionsHead2025.webp"
+                        alt="The white limestone cliffs of the Niagra Enscarpment along the shores of Lion's Head Ontario in the Bruce Peninsula"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Bruce Peninsula Day Trip</div>
+                        <h2>Lions Head</h2>
+                        <p>
+                            White limestone cliffs, cobbelstone beaches and the oldest living trees in Canada
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+                <!--    DYERS BAY     -->
+                <a href="trip_report.html" rel="nofollow" class="adventure-card">
+                    <img src="images/adventures/DyersBay2025.webp"
+                        alt="Rocks and cliffs of the Niagra Enscarpment along the shores of Dyers Bay located on the Bruce Peninsula of Ontario, Canada"
+                        loading="lazy">
+                    <div class="adventure-overlay">
+                        <div class="adventure-meta">Bruce Peninsula Day Trip</div>
+                        <h2>Dyers Bay</h2>
+                        <p>
+                            White cobbelstone beaches, limestone shelves and pristine waters
+                        </p>
+                        <span class="adventure-button">Full Trip Report →</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+        
+
+                <!-- ========================================= -->
         <!--          TIMELINE SECTION                 -->
         <!-- ========================================= -->
         <section class="timeline-section" id="timeline">
@@ -1035,546 +1436,6 @@
 
 
 
-        <!--
-        <section class="content" id="bio">
-
-            <div class="bio">
-
-                <h2>Bio</h2>
-            -->
-        <!-- MIX IN PICTURES AND QUOTES, MAKE COLUMNS TO OFFSET PICTURES TO THE LEFT AND RIGHT -->
-        <!--
-                <p>
-                    My fascination with paddling began long before I ever owned a kayak.
-                    As a kid, I remember trying one briefly at camp and being instantly
-                    intrigued by the freedom of it. Around the age of ten, my family took
-                    a canoe trip through Algonquin Park. We were far from an outdoorsy
-                    family, and I still remember the clouds of bugs and moments of
-                    discomfort, but something about arriving at a remote campsite by water
-                    stayed with me.
-                </p>
-
-                <p>
-                    The idea of traveling across lakes and wilderness to “find your own
-                    home in nature” never really left my mind.
-                </p>
-
-                <p>
-                    Years later, after plenty of dreaming and very little experience,
-                    I rented small recreational kayaks with a friend for an overnight trip
-                    in La Mauricie. We had cheap gear, almost no idea what we were doing,
-                    and nearly froze during the night, but it was unforgettable. Shortly
-                    after, at 32 years old, I finally bought my first used sea kayak.
-                    Originally, it was mostly for fitness and to spend more time on the
-                    water, something I had always been drawn toward.
-                </p>
-
-                <p>
-                    Before long, I set out on my first kayak camping trip through the
-                    Thousand Islands — a place I had wanted to explore for years. That trip
-                    almost never happened. I had originally planned it with someone I was
-                    dating at the time, but after weeks of planning, she unexpectedly broke
-                    up with me just before the trip. I nearly stayed home entirely.
-                    Instead, nervous and uncertain, I loaded my kayak alone and launched
-                    into the St. Lawrence River by myself.
-                </p>
-
-                <p>
-                    Looking back, that moment changed everything.
-                </p>
-
-                <p>
-                    I realized I didn’t need to wait for the perfect circumstances,
-                    schedules, or other people to begin living the adventures I had been
-                    imagining for years. Since then, solo paddling has become something I
-                    deeply value — the freedom to travel at my own pace, stop wherever I
-                    want, photograph a shoreline for an hour, or push through miles of open
-                    water simply because conditions feel right.
-                </p>
-
-                <p>
-                    A few seasons later, during the first summer of the COVID lockdowns,
-                    I drove overnight to the Bruce Peninsula after seeing photographs of
-                    Flowerpot Island and the turquoise waters of Georgian Bay. Arriving
-                    before sunrise after barely sleeping, I launched with little planning
-                    and far more confidence than experience. Within only a couple of
-                    kilometers offshore, I realized just how exposed and dangerous the
-                    conditions could become.
-                </p>
-
-                <p>
-                    But I also realized something else:
-                    places like this actually existed.
-                </p>
-
-                <p>
-                    Growing up around the St. Lawrence near Montreal, I had never imagined
-                    water could look that way — clear, emerald, endless. Exploring the
-                    coastline that day completely changed my perception of the Great Lakes.
-                    I became obsessed with Georgian Bay and the North Channel almost
-                    immediately.
-                </p>
-
-                <p>
-                    Since then, I’ve explored places like Killarney, the Benjamin Islands,
-                    McGregor Bay, the Fox Islands, the Bay of Islands, Providence Bay, and
-                    the coastlines around Manitoulin Island, with many more expeditions
-                    still waiting ahead.
-                </p>
-
-                <p>
-                    Paddling has become far more than a hobby for me. It has changed how I
-                    see time, freedom, risk, and the importance of pursuing experiences
-                    while we still can. Canadian summers are short. Calm weather windows
-                    don’t always align with vacation schedules. Injuries, responsibilities,
-                    and life itself are unpredictable.
-                </p>
-
-                <p>
-                    Spending time on the water has taught me not to postpone the things
-                    that make me feel alive.
-                </p>
-
-                <p>
-                    This website is a place to document those journeys — the landscapes,
-                    routes, photographs, mistakes, lessons, and moments of awe that keep
-                    pulling me farther toward the horizon.
-                </p>
-
-            </div>
-
-        </section>
-        -->
-
-        <!-- Featured Adventure Section -->
-        <!-- ADVENTURES HEADER -->
-        <!--
-        <section class="section-divider">
-            <div class="quote-container">
-                <h1 class="quote">KAYAK ADVENTURES</h1>
-            </div>
-        </section>
-        -->
-
-        <section class="featured-adventure" id="adventure">
-
-            <h1 class="adventures-main-header">KAYAK ADVENTURES</h1>
-
-            <!-- NORTH CHANNEL-->
-            <div class="adventure-header-container">
-                <h2 class="adventure-header">THE NORTH CHANNEL</h2>
-            </div>
-            <div class="adventures-divider"></div>
-            <div class="adventure-grid">
-                <!-- BENJAMIN ISLANDS 1-->
-                <a href="trips/Benjamin_Islands_2023.html" class="adventure-card">
-                    <img src="images/adventures/Benjis1.webp" alt="Benjamin Islands" loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">North Channel • 2023</div>
-                        <h2>Benjamin Islands I</h2>
-                        <p>
-                            Pink granite juxtaposed with white quartzite and some of the finest kayak camping I have
-                            ever experienced.
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- BENJAMIN ISLANDS 2-->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/Benjis2.webp"
-                        alt="A sunset sky over smooth red granite rocks and pine trees on North Benjamin Island in the North Channel of Lake Huron in Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">North Channel • 2025</div>
-                        <h2>Benjamin Islands II</h2>
-                        <p>
-                            A shortcut to revisit the jewel of the North Channel with a tour of Fox Island
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- MCGREGOR BAY -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/McGregorBay.webp"
-                        alt="A scenic nature picture of rocks, trees and water in McGregor Bay, Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Mouth of the North Channel</div>
-                        <h2>McGregor Bay</h2>
-                        <p>
-                            Endless islands and channels between the white quartzite peaks of Killarney.
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- CREAK ISLAND -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/CreakIsland.webp"
-                        alt="A Pine tree overlooking the open water of the North Channel in Lake Huron on Creak Island"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">North Channel • 2024</div>
-                        <h2>Creak Island & Snug Harbor</h2>
-                        <p>
-                            An island at the edge of the Killarney Bay, with limestone and fossils on one side, and
-                            white quartzite on the other.
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- BAY OF ISLANDS -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/BayOfIslands.webp"
-                        alt="A sunny sky reflectiong off of the water dotted with islands in Bay of Islands in Lake Huron's North Channel in Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">North Channel • 2023</div>
-                        <h2>Bay of Islands</h2>
-                        <p>
-                            The eastern entrance to the North Channel, dotted with islands, crowned with the LaClohe
-                            Mountains to the north.
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- KILLARNEY BAY -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/KillarneyBay.webp"
-                        alt="Sharp and block shaped white quartzite cliffs along the water's edge in the Killarney Bay in Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Killarney Day Trip</div>
-                        <h2>Killarney Bay</h2>
-                        <p>
-                            Striking white quartzite cliffs and deep coves, a favorite anchorage amongst boaters.
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-            </div>
-
-            <!-- NORTHERN GEORGIAN BAY -->
-            <div class="adventure-header-container">
-                <h2 class="adventure-header">PHILLIP EDWARD ISLAND</h2>
-            </div>
-            <div class="adventures-divider"></div>
-            <div class="adventure-grid">
-
-                <!-- WEST FOX ISLAND -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/WestFox.webp"
-                        alt="Wave shaped rock formations on West Fox Island in the Georgian Bay near Killarney, Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Killarney Region • 2023</div>
-                        <h2>West Fox Island</h2>
-                        <p>
-                            Wave shaped rock formations in pink granite at the edge southern edge of the Fox Islands
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- MARTINS ISLAND -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/MartinsIsland.webp"
-                        alt="Smooth Granite Rocks of Martins Island in the Georgian Bay near Killarney, Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Killarney Region • 2024</div>
-                        <h2>Martins Island</h2>
-                        <p>
-                            Smooth rocks, white pines, coves and magnificent views.
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!-- ETCHES -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/EtchesIsland.webp"
-                        alt="White crystals on granite rocks with orange lichen on An island in the Georgian Bay near Killarney, Ontario named Etches Island"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Killarney Region • 2022</div>
-                        <h2>Etches Island</h2>
-                        <p>
-                            Unamed on many maps, Etches island is like a treasure box of metamorphisized shield rock
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-            </div>
-
-            <!-- BRUCE PENINSULA -->
-            <div class="adventure-header-container">
-                <h2 class="adventure-header">BRUCE PENINSULA</h2>
-                <div class="adventures-divider"></div>
-            </div>
-            <div class="adventure-grid">
-                <!--    GROTTO     -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/DunksToGrotto2025.webp"
-                        alt="A white limestone cliffs with grays and blacks and trees on top, and clear turqouise water below in Driftwood Cove in Bruce PEninsula National Park"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Bruce Peninsula Day Trip</div>
-                        <h2>The Grotto</h2>
-                        <p>
-                            Towering cliffs, sea caves and emerald waters
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!--    LIONS HEAD     -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/LionsHead2025.webp"
-                        alt="The white limestone cliffs of the Niagra Enscarpment along the shores of Lion's Head Ontario in the Bruce Peninsula"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Bruce Peninsula Day Trip</div>
-                        <h2>Lions Head</h2>
-                        <p>
-                            White limestone cliffs, cobbelstone beaches and the oldest living trees in Canada
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-                <!--    DYERS BAY     -->
-                <a href="trip_report.html" rel="nofollow" class="adventure-card">
-                    <img src="images/adventures/DyersBay2025.webp"
-                        alt="Rocks and cliffs of the Niagra Enscarpment along the shores of Dyers Bay located on the Bruce Peninsula of Ontario, Canada"
-                        loading="lazy">
-                    <div class="adventure-overlay">
-                        <div class="adventure-meta">Bruce Peninsula Day Trip</div>
-                        <h2>Dyers Bay</h2>
-                        <p>
-                            White cobbelstone beaches, limestone shelves and pristine waters
-                        </p>
-                        <span class="adventure-button">Full Trip Report →</span>
-                    </div>
-                </a>
-
-            </div>
-
-        </section>
-
-        <!--
-        <section id="intro-to-map-section">
-            <h2 class="location-header">Explore The Places</h2>
-            <div class="map-quote">
-                <p>
-                    Some places were planned months in advance, others were discovered by accident.
-                    Every one left its mark.
-                </p>
-            </div>
-        </section>
-        -->
-
-
-        <!-- MAP SECTION -->
-        <section id="map-section">
-
-            <!--
-            <div class="map-header">
-                <h2>Adventure Map</h2>
-            </div>
-            -->
-
-            <!-- LOCATIONS -->
-            <section class="location-explorer">
-
-
-                <h2 class="map-section-header">Explore The Places</h2>
-                <div class="map-quote">
-                    <p>
-                        Some places were planned months in advance, others were discovered by accident.
-                        Every one left its mark.
-                    </p>
-                </div>
-
-                <!--
-                    <p>
-                        Click a destination to fly there on the map and discover
-                        the routes, campsites, galleries and stories from each adventure.
-                    </p>
-                </div>
-                    -->
-                <!-- BRUCE -->
-                <div id="map-locations-start" class="location-group">
-                    <h3>Bruce Peninsula</h3>
-                    <div class="location-list">
-                        <button onclick="showLocation('lionshead', this)">
-                            Lions Head
-                        </button>
-                        <button onclick="showLocation('driftwoodcove', this)">
-                            Driftwood Cove
-                        </button>
-                        <button onclick="showLocation('grotto', this)">
-                            The Grotto
-                        </button>
-                        <!-- DUNKS BAY. DYERS BAY -->
-                        <button onclick="showLocation('dyersBay', this)">
-                            Dyers Bay
-                        </button>
-                        <button onclick="showLocation('dunksBay', this)">
-                            Dunks Bay
-                        </button>
-                        <button onclick="showLocation('littleCove', this)">
-                            Little Cove
-                        </button>
-                    </div>
-                </div>
-                <!-- NORTH CHANNEL -->
-                <div class="location-group">
-                    <h3>North Channel</h3>
-                    <div class="location-list">
-                        <button onclick="showLocation('benjamin', this)">
-                            Benjamin Islands
-                        </button>
-                        <button onclick="showLocation('mcgregor', this)">
-                            McGregor Bay
-                        </button>
-                        <button onclick="showLocation('bayofislands', this)">
-                            Bay of Islands
-                        </button>
-                        <!-- ADD THESE LOCATIONS: FOX ISLAND, CREAK ISLAND, AIRD -->
-                        <button onclick="showLocation('foxIsland', this)">
-                            Fox Island
-                        </button>
-                        <button onclick="showLocation('creakIsland', this)">
-                            Creak Island
-                        </button>
-                        <button onclick="showLocation('airdIsland', this)">
-                            Aird Islands
-                        </button>
-                    </div>
-                </div>
-                <!-- KILLARNEY -->
-                <div class="location-group">
-                    <h3>Killarney</h3>
-                    <div class="location-list">
-                        <button onclick="showLocation('killarneybay', this)">
-                            Killarney Bay
-                        </button>
-                        <button onclick="showLocation('coveredportage', this)">
-                            Covered Portage Cove
-                        </button>
-                        <!-- ADD THESE LOCATIONS: GEORGE ISLAND, THOMAS BAY, SNUG HARBOR -->
-                        <button onclick="showLocation('georgeIsland', this)">
-                            George Island
-                        </button>
-                        <button onclick="showLocation('thomasBay', this)">
-                            Thomas Bay
-                        </button>
-                        <button onclick="showLocation('snugHarbor', this)">
-                            Snug Harbor
-                        </button>
-                    </div>
-                </div>
-                </div>
-                <!-- GEORGIAN BAY -->
-                <div class="location-group">
-                    <h3>Northern Georgian Bay</h3>
-                    <div class="location-list"><button onclick="showLocation('phillipedward', this)">
-                            Philip Edward Island
-                        </button>
-                        <button onclick="showLocation('westfox', this)">
-                            West Fox Island
-                        </button>
-                        <!-- ADD THESE LOCATIONS: Etches, Sly Fox, Martin-->
-                        <button onclick="showLocation('slyFoxIsland', this)">
-                            Sly Fox Island
-                        </button>
-                        <button onclick="showLocation('martinsIsland', this)">
-                            Martins Island
-                        </button>
-                        <button onclick="showLocation('etchesIsland', this)">
-                            Etches Island
-                        </button>
-                    </div>
-                </div>
-                <!-- ST LAWRENCE -->
-                <div class="location-group">
-                    <h3>Saint-Lawrence River</h3>
-                    <div class="location-list">
-                        <button onclick="showLocation('thousandislands', this)">
-                            Thousand Islands
-                        </button>
-                        <!-- ADD THESE LOCATIONS: LACHINE, LES COTEAUX, ST NICOLET, SAINTE BARBE -->
-                        <button onclick="showLocation('lachine', this)">
-                            Lachine
-                        </button>
-                        <button onclick="showLocation('dowkerIsland', this)">
-                            Dowker Island
-                        </button>
-                        <button onclick="showLocation('lescoteaux', this)">
-                            Les Coteaux
-                        </button>
-                        <button onclick="showLocation('saintebarbe', this)">
-                            Sainte-Barbe
-                        </button>
-                        <button onclick="showLocation('longsault', this)">
-                            Long Sault Parkway
-                        </button>
-                        <button onclick="showLocation('stnicolet', this)">
-                            St-Nicolet
-                        </button>
-                    </div>
-                </div>
-                </div>
-                <!-- SAGUENAY -->
-                <div class="location-group">
-                    <h3>Québec</h3>
-                    <div class="location-list">
-                        <button onclick="showLocation('baieeternite', this)">
-                            Baie Éternité
-                        </button>
-                        <!-- lac stukley, mauricie -->
-                        <button onclick="showLocation('stukley', this)">
-                            Lac Stukley
-                        </button>
-                        <button onclick="showLocation('mauricie', this)">
-                            Mauricie National Park
-                        </button>
-                    </div>
-                </div>
-                <div class="location-group">
-                    <h3>Ontario</h3>
-                    <div class="location-list">
-                        <button onclick="showLocation('algonquin', this)">
-                            Algonquin Park
-                        </button>
-                        <button onclick="showLocation('provBay', this)">
-                            Providence Bay
-                        </button>
-                        <button onclick="showLocation('timberBay', this)">
-                            Timber Bay Nature Preserve
-                        </button>
-                    </div>
-                </div>
-            </section>
-
-            <div id="map"></div>
-            <br> <br>
-
-            <div class="location-list-return-to-map-locations">
-                <button>
-                    <a class="location-list-link" href="index.html#map-locations-start">Return to all map locations</a>
-                </button>
-            </div>
-
-            <br> <br>
-
-        </section>
-
 
         <!-- ======================= -->
         <!-- PICTURE GALLERY HEADRER -->
@@ -1741,23 +1602,7 @@
         <!--=====================================-->
         <!--            VIDEO SECTION            -->
         <!--=====================================-->
-        <!-- VIDEOS HEADRER -->
-        <!--
-        <section class="section-divider-2">
-            <div class="section-divider-2-div">
-            </div>
-        </section>
-        <section class="section-divider" id="videos">
-            <div class="quote-container">
-                <h1 class="quote">FEATURED VIDEOS</h1>
-            </div>
-        </section>
-        <section class="section-divider-2">
-            <div class="section-divider-2-div">
-            </div>
-        </section>
-        -->
-        <section class="video-section" id="videos">
+               <section class="video-section" id="videos">
 
             <div class="video-header">
                 <h2>ON THE WATER</h2>
