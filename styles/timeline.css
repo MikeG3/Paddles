@@ -1,8 +1,8 @@
 /* ========================================= */
 /* TIMELINE SECTION */
 /* ========================================= */
-#timeline{
-    scroll-margin-top:-160px;
+#timeline {
+    scroll-margin-top: -160px;
 }
 
 .timeline-section {
@@ -32,68 +32,205 @@
     text-transform: uppercase;
 }
 
-/* ========================================= */
-/* TIMELINE BAR */
-/* ========================================= */
+/* ================================================= */
+/* TIMELINE */
+/* ================================================= */
+
 .timeline-wrapper {
-    width: 100vw;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 50px;
+    width: 100%;
     overflow-x: auto;
-    padding: 40px 10px;
-    margin-bottom: 100px;
+    overflow-y: hidden;
+    padding: 80px 40px 90px;
+    cursor: grab;
+    user-select: none;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .timeline-wrapper::-webkit-scrollbar {
     display: none;
 }
 
-/* LINE */
+.timeline-wrapper:active {
+    cursor: grabbing;
+}
+
+/* ================================================= */
+
+.timeline-track {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
+    width: max-content;
+    min-width: 100%;
+    padding-bottom: 60px;
+}
+
+/* ================================================= */
+
 .timeline-line {
     position: absolute;
-    top: 50%;
-    width: 3000px;
+    top: 58px;
+    left: 0;
+    right: 0;
     height: 2px;
-    background: rgba(255,255,255,0.15);
-    transform: translateY(-50%);
-    z-index: 1;
+    background: rgba(255, 255, 255, .18);
 }
 
-/* YEAR BUTTONS */
+/* ================================================= */
+
 .timeline-year {
+
     position: relative;
-    z-index: 2;
-    background: #1b1b1b;
-    border: 2px solid rgba(255,255,255,0.2);
-    color: rgba(255,255,255,0.7);
-    padding: 18px 15px;
-    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background: none;
+    border: none;
+    padding: 0;
+
     cursor: pointer;
-    transition: 0.4s;
-    font-size: 1rem;
+
+    color: rgba(255, 255, 255, .45);
+
+    transition:
+        color .35s,
+        transform .35s,
+        text-shadow .35s;
+
+    font-size: 1.5rem;
     letter-spacing: 2px;
-    min-width: 100px;
+    min-width: 60px;
 }
+
+/* ================================================= */
+/* YEAR TEXT */
+
+.timeline-year span {
+    margin-top: -36px;
+    transition:
+        transform .35s,
+        color .35s;
+}
+
+/* ================================================= */
+/* TICK */
+
+.timeline-year::after {
+    content: "";
+    position: absolute;
+    top: 58px;
+    width: 2px;
+    height: 36px;
+    transform: translateY(-18px);
+    background: rgba(255, 255, 255, .45);
+    transition:
+        background .35s,
+        height .35s,
+        box-shadow .35s;
+}
+
+/* ================================================= */
+/* MEDIUM TICK */
+
+.tick-medium::after {
+    height: 60px;
+    transform: translateY(-30px);
+}
+
+/* ================================================= */
+/* LARGE TICK */
+
+.tick-large::after {
+    height: 90px;
+    transform: translateY(-45px);
+}
+
+/* ================================================= */
+/* FUTURE */
 
 .timeline-year-future {
-    margin-left: -25px;
+
+    color: rgba(255, 255, 255, .25);
+
 }
+
+/* ================================================= */
+/* HOVER */
 
 .timeline-year:hover {
-    background: rgba(255,255,255,0.1);
-    transform: translateY(-4px);
+
+    color: white;
+
 }
 
-/* ACTIVE YEAR */
-.timeline-year.active {
+.timeline-year:hover span {
+
+    transform: translateY(-5px);
+
+}
+
+.timeline-year:hover::after {
+
     background: white;
-    color: black;
-    border-color: white;
-    box-shadow: 0 0 25px rgba(255,255,255,0.25);
+
+}
+
+/* ================================================= */
+/* ACTIVE */
+
+.timeline-year.active {
+
+    color: white;
+
+}
+
+.timeline-year.active span {
+
+    transform: translateY(-1px) scale(1.12);
+    padding: 5px;
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, .55),
+        0 0 25px rgba(255, 255, 255, .25);
+
+}
+
+.timeline-year.active::after {
+
+    background: white;
+
+    box-shadow: 0 0 15px rgba(255, 255, 255, .7);
+
+}
+
+/* ================================================= */
+/* MOBILE */
+
+@media(max-width:768px) {
+
+    .timeline-track {
+        gap: 60px;
+    }
+
+    .timeline-year {
+        font-size: .9rem;
+    }
+
+    .timeline-year span {
+        margin-top: -30px;
+    }
+
+    .timeline-line {
+        top: 50px;
+    }
+
+    .timeline-year::after {
+        top: 50px;
+    }
+
 }
 
 /* ========================================= */
@@ -163,7 +300,7 @@
     object-fit: cover;
     border-radius: 28px;
     flex-shrink: 0;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
     transition:
         transform 0.5s ease,
         box-shadow 0.5s ease;
@@ -191,31 +328,31 @@
 .timeline-event-text p {
     font-size: 1.15rem;
     line-height: 1.9;
-    color: rgba(255,255,255,0.75);
+    color: rgba(255, 255, 255, 0.75);
 }
 
-.timeline-navigation{
-    display:flex;
-    justify-content:center;
-    margin-top:40px;
+.timeline-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 /* NEXT YEAR BUTTON */
-#next-year-btn{
-    background:#222;
-    color: rgba(255,255,255,0.7);
-    border: 1px solid rgba(255,255,255,0.7);
-    box-shadow: 0 0 8px rgba(255,255,255,0.25);
-    padding:16px 32px;
-    border-radius:50px;
-    font-size:1rem;
+#next-year-btn {
+    background: #222;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 1rem;
     cursor: pointer;
-    transition:0.3s;
+    transition: 0.3s;
 }
 
-#next-year-btn:hover{
-    background-color: rgba(255,255,255,0.8);
-    border: 2px solid rgba(255,255,255,0.2);
+#next-year-btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     color: rgba(0, 0, 0, 0.7);
 }
 

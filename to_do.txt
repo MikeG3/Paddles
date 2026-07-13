@@ -1,4 +1,6 @@
-
+Rearrange main page and fix gallery section:
+Hero -> Map -> Adventures -> Timeline -> Gallery...
+Gallery: condense the 2 top and bottom story cards, overlap them.
 
 Add legend to map
 
