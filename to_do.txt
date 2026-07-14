@@ -1,7 +1,3 @@
-Rearrange main page and fix gallery section:
-Hero -> Map -> Adventures -> Timeline -> Gallery...
-on the water - videos
-about
 
 Gallery: condense the 2 top and bottom story cards, overlap them.
 
