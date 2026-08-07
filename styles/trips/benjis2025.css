@@ -1,3 +1,9 @@
+/* ========================================= */
+/* HERO IMAGE                                     */
+/* ========================================= */
 .benjis-2025-hero-image {
+    /*
     background-image: url("../../images/gallery/benjis/20250817_204052.webp");
+    */
+    background-image: url("../../images/heroslides/benjirocks.webp");
 }
