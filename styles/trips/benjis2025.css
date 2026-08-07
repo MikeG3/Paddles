@@ -15,6 +15,16 @@
     background-image: url("../../images/gallery/benjis/20250817_204052.webp");
 }
 
-.benjis2-map {
-    background-image: url("../../images/maps/McBeanToBenjisMap.jpg");
+.map-section{
+    background:black;
+    padding:40px 0;
+    text-align:center;
+}
+
+.map-section img{
+    width:min(95%,1100px);
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:20px;
 }
