@@ -14,21 +14,39 @@
 .benjis2-image-1 {
     background-image: url("../../images/gallery/benjis/20250818_165843.webp");
 }
+@media (max-width: 768px) {
+    .benjis2-image-1 {
+        animation: panLeftAndRight1 20s infinite;
+    }
+    @keyframes panLeftAndRight1 {
+        0% {
+            background-position: 0%;
+        }
+
+        50% {
+            background-position: 100%;
+        }
+
+        100% {
+            background-position: 0%;
+        }
+    }
+}
 
 .benjis2-image-2 {
     background-image: url("../../images/gallery/benjis/20250817_204052.webp");
 }
 
-.map-section{
-    background:black;
+.map-section {
+    background: black;
     padding: 0;
-    text-align:center;
+    text-align: center;
 }
 
-.map-section img{
-    width:min(95%,1100px);
-    height:auto;
-    display:block;
-    margin:auto;
-    border-radius:20px;
+.map-section img {
+    width: min(95%, 1100px);
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
 }
