@@ -1,0 +1,184 @@
+/*=========================================================
+    EXPEDITION STORY LAYOUT
+=========================================================*/
+.expedition-section {
+    position: relative;
+    z-index: 2;
+    padding: 140px 0;
+    background: rgba(10, 10, 10, 0.82);
+}
+
+.expedition-section.dark {
+    background: rgba(0, 0, 0, 0.92);
+}
+
+.expedition-container {
+    width: min(900px, 88%);
+    margin: auto;
+}
+
+.expedition-container img {
+    width: 100%;
+}
+
+/*=========================================================
+  CHAPTER NUMBER
+=========================================================*/
+.chapter-number {
+    display: block;
+    margin-bottom: 12px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #9bb6c9;
+}
+
+/*=========================================================
+  MAIN TITLES
+=========================================================*/
+.expedition-container h2 {
+    font-family: "Permanent Marker", cursive;
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    font-weight: 300;
+    line-height: 1.05;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+/*=========================================================
+  SUBHEADINGS
+=========================================================*/
+.expedition-container h3 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+/*=========================================================
+  NORMAL PARAGRAPHS
+=========================================================*/
+.expedition-container p {
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 34px;
+}
+
+/*=========================================================
+  OPENING PARAGRAPH
+=========================================================*/
+.lead {
+    font-size: 1.7rem !important;
+    line-height: 1.6 !important;
+    color: white !important;
+    font-weight: 300;
+}
+
+/*=========================================================
+  LARGE EMPHASIS TEXT
+=========================================================*/
+.large-text {
+    font-size: 2rem !important;
+    line-height: 1.5;
+    color: white !important;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+/*=========================================================
+  HIGHLIGHT SENTENCE
+=========================================================*/
+.highlight {
+    font-size: 1.8rem !important;
+    color: #ffffff !important;
+    font-style: italic;
+    border-left: 5px solid #bbbbbb;
+    padding-left: 28px;
+    margin: 55px 0;
+}
+
+/*=========================================================
+  SURPRISE / REVEAL
+=========================================================*/
+.surprise {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #bbbbbb !important;
+    font-family: "Permanent Marker";
+    margin: 70px 0;
+}
+
+/*=========================================================
+  BLOCK QUOTES
+=========================================================*/
+blockquote {
+    margin: 80px auto;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 1.6;
+    position: relative;
+}
+
+/*=========================================================
+  SECTION DIVIDER
+=========================================================*/
+.expedition-divider {
+    width: 140px;
+    height: 2px;
+    margin: 100px auto;
+    background:
+        linear-gradient(to right,
+            transparent,
+            white,
+            transparent);
+
+}
+
+/*=========================================================
+  LINKS
+=========================================================*/
+.expedition-container a {
+    color: #79c6ff;
+    text-decoration: none;
+}
+
+.expedition-container a:hover {
+    color: white;
+}
+
+/*=========================================================
+  MOBILE
+=========================================================*/
+@media(max-width:900px) {
+
+    .expedition-section {
+        padding: 90px 0;
+    }
+
+    .lead {
+        font-size: 1.45rem !important;
+    }
+
+    .large-text {
+        font-size: 1.55rem !important;
+    }
+
+    .highlight {
+        font-size: 1.45rem !important;
+    }
+
+    .surprise {
+        font-size: 2rem !important;
+    }
+
+    blockquote {
+        font-size: 1.5rem;
+    }
+
+}
