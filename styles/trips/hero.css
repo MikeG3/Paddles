@@ -1,0 +1,116 @@
+/* FOR KAYAK TRIP REPORTS AND STORIES */
+
+/* ========================================= */
+/* PAGE                                      */
+/* ========================================= */
+
+body {
+    background: #111;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* ========================================= */
+/* HERO                                      */
+/* ========================================= */
+
+.expedition-hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.expedition-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ========================================= */
+/* TEXT OVERLAY */
+/* ========================================= */
+.hero-overlay-expedition {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 900px;
+}
+
+.hero-overlay-expedition h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    font-family: rock salt;
+}
+
+.hero-overlay-expedition p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    overflow: hidden;
+    font-family: story script;
+    padding: 0 10px;
+}
+
+/* HERO OVERLAY FOR MOBILE */
+@media (max-width: 768px) {
+
+    /* HERO TEXT */
+    .hero-overlay-expedition {
+        width: 90%;
+        padding: 0px;
+    }
+
+    .hero-overlay-expedition h1 {
+        font-size: 2.3rem;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .hero-overlay-expedition p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+}
+
+/* ========================================= */
+/* HERO TEXT                                 */
+/* ========================================= */
+.hero-location {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+.hero-overlay h1 {
+    font-size: clamp(4rem, 8vw, 8rem);
+    margin: .3em 0;
+}
+
+
+.scroll-arrow {
+    margin-top: 80px;
+    font-size: 2rem;
+    animation: bounce 2s infinite;
+}
