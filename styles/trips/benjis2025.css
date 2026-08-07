@@ -7,3 +7,14 @@
     */
     background-image: url("../../images/heroslides/benjirocks.webp");
 }
+
+/* ========================================= */
+/* IMAGES                                     */
+/* ========================================= */
+.benjis2-image-1 {
+    background-image: url("../../images/gallery/benjis/20250817_204052.webp");
+}
+
+.benjis2-map {
+    background-image: url("../../images/maps/McBeanToBenjisMap.jpg");
+}
