@@ -41,3 +41,141 @@
     padding: 2% 5%;
     margin-bottom: 5dvh;
 }
+
+/* ========================================= */
+/* PEI — TRIPS COMING SOON */
+/* ========================================= */
+
+.pei-trips-coming {
+    background: #0b0b0b;
+    color: white;
+    padding: 160px 0 180px;
+}
+
+.pei-trips-coming .expedition-container {
+    max-width: 1100px;
+}
+
+
+/* TRIP LINK GRID */
+
+.pei-trip-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 80px 0;
+}
+
+
+/* TRIP CARDS */
+
+.pei-trip-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 320px;
+    padding: 35px;
+    color: white;
+    text-decoration: none;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.12);
+    transition: 0.45s ease;
+}
+
+.pei-trip-card:hover {
+    background: rgba(255,255,255,0.09);
+    border-color: rgba(255,255,255,0.35);
+    transform: translateY(-8px);
+}
+
+
+/* NUMBER */
+
+.pei-trip-number {
+    display: block;
+    margin-bottom: 45px;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,0.45);
+}
+
+
+/* TITLE */
+
+.pei-trip-card h3 {
+    margin: 0 0 20px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+
+/* DESCRIPTION */
+
+.pei-trip-card p {
+    margin: 0;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+
+/* LINK */
+
+.pei-trip-link {
+    margin-top: auto;
+    padding-top: 30px;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    color: rgba(255,255,255,0.9);
+    transition: 0.35s ease;
+}
+
+.pei-trip-card:hover .pei-trip-link {
+    letter-spacing: 2px;
+}
+
+
+/* CLOSING */
+
+.pei-coming-soon {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.pei-to-be-continued {
+    text-align: center;
+    margin: 0;
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+}
+
+
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media (max-width: 800px) {
+
+    .pei-trips-coming {
+        padding: 110px 0 130px;
+    }
+
+    .pei-trip-links {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin: 60px 0;
+    }
+
+    .pei-trip-card {
+        min-height: 260px;
+        padding: 30px;
+    }
+
+    .pei-trip-number {
+        margin-bottom: 30px;
+    }
+
+}
