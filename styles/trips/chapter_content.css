@@ -24,9 +24,12 @@
 /* 
     SPACERS
 */
-
 .image-spacer-full {
-    height: 65dvh;
+    height: 80dvh;
+}
+
+.image-spacer-small {
+    height: 20dvh;
 }
 
 /*=========================================================
