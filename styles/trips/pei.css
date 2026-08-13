@@ -4,3 +4,40 @@
 .pei-hero-image {
     background-image: url("../../images/heroslides/slyfox.webp");
 }
+
+.pei-landscape {
+    background-image: url("../../images/heroslides/westfox.webp");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.pei-landscape h2 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.45) 0%,
+        rgba(0,0,0,0.15) 10%,
+        rgba(0,0,0,0.55) 15%,
+        rgba(0,0,0,0.72) 100%
+    );
+    pointer-events: none;
+    border-radius: 30px;
+    padding: 2% 5%;
+    text-align: center;
+    /* ADD SHADOW */
+}
+
+.pei-landscape-content-container {
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.45) 0%,
+        rgba(0,0,0,0.15) 10%,
+        rgba(0,0,0,0.55) 15%,
+        rgba(0,0,0,0.72) 100%
+    );
+    pointer-events: none;
+    border-radius: 30px;
+    padding: 2% 5%;
+    margin-bottom: 5dvh;
+}
