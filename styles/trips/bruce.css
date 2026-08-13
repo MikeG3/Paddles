@@ -15,10 +15,13 @@
     position: relative;
     z-index: 2;
     padding-top: 10vh;
-    padding-bottom: 10vh;
-    
+    padding-bottom: 10vh;   
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.bruce-landscape-content h2 {
+    text-align: center;
 }
 
 .bruce-landscape-content::before {
@@ -40,4 +43,115 @@
 .bruce-landscape-content p {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/* ========================================= */
+/* BRUCE ROUTES PLACEHOLDER */
+/* ========================================= */
+
+.bruce-routes {
+    position: relative;
+    background: #0b0b0b;
+    color: white;
+    padding: 160px 0 180px;
+}
+
+.bruce-routes .expedition-container {
+    max-width: 900px;
+}
+
+.bruce-routes .chapter-number {
+    color: rgba(255,255,255,0.5);
+}
+
+.bruce-routes h2 {
+    color: white;
+}
+
+.bruce-routes p {
+    color: rgba(255,255,255,0.78);
+}
+
+.bruce-routes .lead {
+    color: white;
+}
+
+/* ROUTE LIST */
+
+.bruce-route-list {
+    margin: 70px 0;
+    border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+.bruce-route {
+    display: grid;
+    grid-template-columns: 70px 1fr 50px;
+    align-items: center;
+    min-height: 90px;
+    border-bottom: 1px solid rgba(255,255,255,0.18);
+    color: white;
+    text-decoration: none;
+    transition: background 0.4s ease, padding 0.4s ease;
+}
+
+.bruce-route:hover {
+    background: rgba(255,255,255,0.06);
+    padding-left: 15px;
+}
+
+.route-number {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.4);
+}
+
+.route-name {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+.route-arrow {
+    font-size: 1.4rem;
+    text-align: right;
+    color: rgba(255,255,255,0.55);
+    transition: transform 0.4s ease;
+}
+
+.bruce-route:hover .route-arrow {
+    transform: translateX(8px);
+    color: white;
+}
+
+.bruce-routes .large-text {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.bruce-routes .surprise {
+    text-align: center;
+    color: rgba(255,255,255,0.55);
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .bruce-routes {
+        padding: 110px 0 130px;
+    }
+
+    .bruce-route {
+        grid-template-columns: 50px 1fr 35px;
+        min-height: 80px;
+    }
+
+    .route-name {
+        font-size: 1.05rem;
+    }
+
+    .route-arrow {
+        font-size: 1.2rem;
+    }
+
 }
