@@ -4,3 +4,42 @@
 .pei-hero-image {
     background-image: url("../../images/heroslides/mcgregor.webp");
 }
+
+
+/* ========================================= */
+/* EXPEDITION MAPS */
+/* ========================================= */
+.expedition-map {
+    width: min(1100px, 92%);
+    margin: 70px auto;
+    text-align: center;
+}
+
+.expedition-map img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+}
+
+.expedition-map figcaption {
+    margin-top: 18px;
+    color: rgba(255,255,255,0.55);
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+}
+
+.expedition-map-wide {
+    width: min(1250px, 94%);
+}
+
+.expedition-map-detail {
+    width: min(900px, 92%);
+}
+
+.expedition-map-close {
+    width: min(750px, 90%);
+}
