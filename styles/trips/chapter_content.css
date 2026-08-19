@@ -171,6 +171,26 @@ blockquote {
 }
 
 /*=========================================================
+  EMBEDDED VIDEOS
+=========================================================*/
+.embedded-video {
+    width: 100%;
+}
+
+.embedded-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .embedded-video iframe {
+        width: 96%;
+        margin-left: 2%;
+    }
+}
+
+/*=========================================================
   MOBILE
 =========================================================*/
 @media(max-width:900px) {
