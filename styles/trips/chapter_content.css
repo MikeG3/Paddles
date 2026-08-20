@@ -171,6 +171,28 @@ blockquote {
 }
 
 /*=========================================================
+  EMBEDDED PICTURES
+=========================================================*/
+/* PLANNING MAP */
+.planning-map-container {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.planning-map {
+    align-items: center;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .planning-map {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+/*=========================================================
   EMBEDDED VIDEOS
 =========================================================*/
 .embedded-video {
@@ -181,6 +203,7 @@ blockquote {
     width: 100%;
     aspect-ratio: 16 / 9;
     margin-left: auto;
+    margin-bottom: 25px;
 }
 
 @media (max-width: 768px) {
