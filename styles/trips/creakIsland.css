@@ -1,0 +1,10 @@
+/* ========================================= */
+/* HERO IMAGE                                     */
+/* ========================================= */
+.pei-hero-image {
+    background-image: url("../../images/adventures/CreakIsland.webp");
+}
+
+.creakisland-hero-title {
+    line-height: 90px;
+}
