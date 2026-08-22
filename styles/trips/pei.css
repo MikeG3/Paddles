@@ -14,6 +14,8 @@
 }
 
 .pei-landscape h2 {
+    background: rgba(0,0,0,0.72);
+    /*
     background: linear-gradient(
         to bottom,
         rgba(0,0,0,0.45) 0%,
@@ -21,6 +23,7 @@
         rgba(0,0,0,0.55) 15%,
         rgba(0,0,0,0.72) 100%
     );
+    */
     pointer-events: none;
     border-radius: 30px;
     padding: 2% 5%;
@@ -58,7 +61,6 @@
 
 
 /* TRIP LINK GRID */
-
 .pei-trip-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,7 +70,6 @@
 
 
 /* TRIP CARDS */
-
 .pei-trip-card {
     position: relative;
     display: flex;

@@ -8,3 +8,49 @@
 .killarney-bay-hero-text {
     color: black;
 }
+
+/* ========================================= */
+/* KILLARNEY — INTO THE LANDSCAPE */
+/* ========================================= */
+
+.killarney-landscape {
+    background-image: url("../../images/gallery/killarney/White quartzite cliffs and pine trees at the entrance in the Killarney Bay in Killarney Ontario Canada 2.webp");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.killarney-landscape h2 {
+    background: rgba(0,0,0,0.72);
+    pointer-events: none;
+    border-radius: 30px;
+    padding: 2% 5%;
+    text-align: center;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.7);
+}
+
+.killarney-landscape .landcsacpe-background-content-container {
+    background: rgba(0,0,0,0.72);
+    /*
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.45) 0%,
+        rgba(0,0,0,0.15) 10%,
+        rgba(0,0,0,0.55) 15%,
+        rgba(0,0,0,0.72) 100%
+    );
+    */
+    pointer-events: none;
+    border-radius: 30px;
+    padding: 2% 5%;
+    margin-bottom: 5dvh;
+}
+
+@media (max-width: 768px) {
+
+    .killarney-landscape {
+        background-attachment: scroll;
+    }
+
+}
