@@ -13,6 +13,15 @@
     color: white;
 }
 
+.triangle-cliffs {
+    background-image: url("../../images/trips/mcgregorbay/triangle cliffs.webp");
+}
+
+.island {
+    background-image: url("../../images/trips/mcgregorbay/Island.webp");
+}
+
+
 
 /* ========================================= */
 /* EXPEDITION MAPS */
