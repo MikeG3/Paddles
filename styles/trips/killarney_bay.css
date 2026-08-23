@@ -47,6 +47,35 @@
 .killarney-chapter-2-3-divider {
     background-image: url("../../images/gallery/killarney/Indian Head Cove Entrance.webp");
 }
+@media (max-width: 768px) {
+    .killarney-chapter-2-3-divider {
+        animation: panLeftAndRight1 20s linear infinite;
+    }
+
+    @keyframes panLeftAndRight1 {
+        0% {
+            background-position: 28%;
+        }
+
+        2% {
+            background-position: 28%;
+        }
+
+        49% {
+            background-position: 80%;
+        }
+        51% {
+            background-position: 80%;
+        }
+
+        98% { background-position: 28%;
+        }
+
+        100% {
+            background-position: 28%;
+        }
+    }
+}
 
 /* ========================================= */
 /* KILLARNEY — INTO THE LANDSCAPE */
