@@ -16,9 +16,67 @@
 .triangle-cliffs {
     background-image: url("../../images/trips/mcgregorbay/triangle cliffs.webp");
 }
+@media (max-width: 768px) {
+    .triangle-cliffs {
+        animation: panLeftAndRight1 20s linear infinite;
+    }
+
+    @keyframes panLeftAndRight1 {
+        0% {
+            background-position: 18%;
+        }
+
+        2% {
+            background-position: 18%;
+        }
+
+        49% {
+            background-position: 100%;
+        }
+        51% {
+            background-position: 100%;
+        }
+
+        98% { background-position: 18%;
+        }
+
+        100% {
+            background-position: 18%;
+        }
+    }
+}
 
 .island {
     background-image: url("../../images/trips/mcgregorbay/Island.webp");
+}
+@media (max-width: 768px) {
+    .island {
+        animation: panLeftAndRight1 20s linear infinite;
+    }
+
+    @keyframes panLeftAndRight1 {
+        0% {
+            background-position: 16%;
+        }
+
+        2% {
+            background-position: 16%;
+        }
+
+        49% {
+            background-position: 95%;
+        }
+        51% {
+            background-position: 95%;
+        }
+
+        98% { background-position: 16%;
+        }
+
+        100% {
+            background-position: 16%;
+        }
+    }
 }
 
 

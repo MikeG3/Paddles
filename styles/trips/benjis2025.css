@@ -36,6 +36,36 @@
 .benjis2-image-2 {
     background-image: url("../../images/gallery/benjis/20250817_204052.webp");
 }
+@media (max-width: 768px) {
+    .benjis2-image-2 {
+        animation: panLeftAndRight1 14s linear infinite;
+    }
+
+    @keyframes panLeftAndRight1 {
+        0% {
+            background-position: 18%;
+        }
+
+        2% {
+            background-position: 18%;
+        }
+
+        49% {
+            background-position: 65%;
+        }
+        51% {
+            background-position: 65%;
+        }
+
+        98% { background-position: 18%;
+        }
+
+        100% {
+            background-position: 18%;
+        }
+    }
+}
+
 
 .map-section {
     background: black;
