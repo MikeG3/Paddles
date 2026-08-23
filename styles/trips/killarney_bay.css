@@ -9,10 +9,18 @@
     color: black;
 }
 
+.killarney-chapter-1-2-divider {
+    background-image: url("../../images/gallery/killarney/Indian Head Cliff.webp");
+}
+
+
+.killarney-chapter-2-3-divider {
+    background-image: url("../../images/gallery/killarney/White quartzite cliffs and pine trees at the entrance in the Killarney Bay in Killarney Ontario Canada 4.webp");
+}
+
 /* ========================================= */
 /* KILLARNEY — INTO THE LANDSCAPE */
 /* ========================================= */
-
 .killarney-landscape {
     background-image: url("../../images/gallery/killarney/White quartzite cliffs and pine trees at the entrance in the Killarney Bay in Killarney Ontario Canada 2.webp");
     min-height: 100vh;
@@ -31,7 +39,7 @@
 }
 
 .killarney-landscape .landcsacpe-background-content-container {
-    background: rgba(0,0,0,0.72);
+    background: rgba(0,0,0,0.82);
     /*
     background: linear-gradient(
         to bottom,
@@ -51,6 +59,111 @@
 
     .killarney-landscape {
         background-attachment: scroll;
+    }
+
+}
+
+/* ========================================= */
+/* KILLARNEY — STORIES TO COME */
+/* ========================================= */
+
+.killarney-coming-soon h3 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.killarney-story-links {
+    padding: 0;
+    overflow: hidden;
+}
+
+.killarney-story-link {
+    display: grid;
+    grid-template-columns: 70px 1fr 50px;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 5%;
+    color: white !important;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.16);
+    transition:
+        background 0.4s ease,
+        padding 0.4s ease;
+}
+
+.killarney-story-link:first-child {
+    border-top: 1px solid rgba(255,255,255,0.16);
+}
+
+.killarney-story-link:hover {
+    background: rgba(255,255,255,0.07);
+    padding-left: 6%;
+}
+
+.story-link-number {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: rgba(255,255,255,0.4);
+}
+
+.story-link-content h3 {
+    margin: 0 0 8px;
+    font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+    font-weight: 400;
+    color: white;
+}
+
+.story-link-content p {
+    margin: 0 !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    color: rgba(255,255,255,0.65) !important;
+}
+
+.story-link-arrow {
+    font-size: 1.5rem;
+    text-align: right;
+    color: rgba(255,255,255,0.55);
+    transition:
+        transform 0.4s ease,
+        color 0.4s ease;
+}
+
+.killarney-story-link:hover .story-link-arrow {
+    transform: translateX(8px);
+    color: white;
+}
+
+.killarney-coming-ending {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.killarney-coming-ending .large-text {
+    margin-bottom: 25px;
+}
+
+.killarney-coming-ending .surprise {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .killarney-story-link {
+        grid-template-columns: 45px 1fr 30px;
+        gap: 12px;
+        padding: 25px 6%;
+    }
+
+    .killarney-story-link:hover {
+        padding-left: 6%;
+    }
+
+    .story-link-content p {
+        font-size: 0.95rem !important;
     }
 
 }
