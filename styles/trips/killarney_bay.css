@@ -13,6 +13,36 @@
     background-image: url("../../images/gallery/killarney/Indian Head Cliff.webp");
 }
 
+@media (max-width: 768px) {
+    .killarney-chapter-1-2-divider {
+        animation: panLeftAndRight1 20s linear infinite;
+    }
+
+    @keyframes panLeftAndRight1 {
+        0% {
+            background-position: 8%;
+        }
+
+        2% {
+            background-position: 8%;
+        }
+
+        49% {
+            background-position: 72.5%;
+        }
+        51% {
+            background-position: 72.5%;
+        }
+
+        98% { background-position: 8%;
+        }
+
+        100% {
+            background-position: 8%;
+        }
+    }
+}
+
 
 .killarney-chapter-2-3-divider {
     background-image: url("../../images/gallery/killarney/Indian Head Cove Entrance.webp");
@@ -30,16 +60,16 @@
 }
 
 .killarney-landscape h2 {
-    background: rgba(0,0,0,0.72);
+    background: rgba(0, 0, 0, 0.72);
     pointer-events: none;
     border-radius: 30px;
     padding: 2% 5%;
     text-align: center;
-    text-shadow: 0 4px 20px rgba(0,0,0,0.7);
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
 }
 
 .killarney-landscape .landcsacpe-background-content-container {
-    background: rgba(0,0,0,0.82);
+    background: rgba(0, 0, 0, 0.82);
     /*
     background: linear-gradient(
         to bottom,
@@ -88,25 +118,25 @@
     padding: 30px 5%;
     color: white !important;
     text-decoration: none;
-    border-bottom: 1px solid rgba(255,255,255,0.16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
     transition:
         background 0.4s ease,
         padding 0.4s ease;
 }
 
 .killarney-story-link:first-child {
-    border-top: 1px solid rgba(255,255,255,0.16);
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .killarney-story-link:hover {
-    background: rgba(255,255,255,0.07);
+    background: rgba(255, 255, 255, 0.07);
     padding-left: 6%;
 }
 
 .story-link-number {
     font-size: 0.8rem;
     letter-spacing: 3px;
-    color: rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .story-link-content h3 {
@@ -120,13 +150,13 @@
     margin: 0 !important;
     font-size: 1rem !important;
     line-height: 1.6 !important;
-    color: rgba(255,255,255,0.65) !important;
+    color: rgba(255, 255, 255, 0.65) !important;
 }
 
 .story-link-arrow {
     font-size: 1.5rem;
     text-align: right;
-    color: rgba(255,255,255,0.55);
+    color: rgba(255, 255, 255, 0.55);
     transition:
         transform 0.4s ease,
         color 0.4s ease;
