@@ -25,11 +25,11 @@
     SPACERS
 */
 .image-spacer-full {
-    height: 80dvh;
+    height: 80lvh;
 }
 
 .image-spacer-small {
-    height: 60dvh;
+    height: 60lvh;
 }
 
 /*=========================================================
@@ -210,7 +210,7 @@ blockquote {
 }
 
 .image-divider {
-    height: 100vh;
+    height: 100lvh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
