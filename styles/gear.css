@@ -11,6 +11,7 @@
 }
 
 .gear-intro h1 {
+    font-family: 'permanent marker';
     font-size: clamp(3rem, 6vw, 5rem);
     margin-bottom: 30px;
     letter-spacing: 2px;
@@ -28,34 +29,24 @@
 }
 
 .gear-category h2 {
+    font-family: 'permanent marker';
     text-align: center;
     margin-bottom: 50px;
-
     font-size: clamp(2rem,4vw,3.5rem);
-
     letter-spacing: 2px;
-
     padding-bottom: 15px;
-
     border-bottom: 4px solid rgba(0,0,0,0.15);
 }
 
 .gear-item {
     max-width: 1000px;
-
     margin: 0 auto 35px;
-
     padding: 35px;
-
     background: rgba(255,255,255,0.85);
-
     border-radius: 24px;
-
     box-shadow:
         0 12px 40px rgba(0,0,0,0.08);
-
     border: 2px solid rgba(0,0,0,0.05);
-
     transition:
         transform 0.3s ease,
         box-shadow 0.3s ease;
@@ -63,26 +54,20 @@
 
 .gear-item:hover {
     transform: translateY(-4px);
-
     box-shadow:
         0 20px 60px rgba(0,0,0,0.12);
 }
 
 .gear-item h3 {
     font-size: 1.8rem;
-
     margin-bottom: 20px;
-
     color: #111;
 }
 
 .gear-item p {
     font-size: 1.1rem;
-
     line-height: 1.8;
-
     margin-bottom: 15px;
-
     color: rgba(20,20,20,0.9);
 }
 
@@ -98,51 +83,75 @@
 
 .gear-story {
     margin-top: 25px;
-
     padding: 25px;
-
     background:
         rgba(245,245,245,0.9);
-
     border-left: 6px solid #222;
-
     border-radius: 12px;
 }
 
 .gear-story h4 {
     margin-bottom: 15px;
-
     font-size: 1.4rem;
 }
 
 .gear-note {
     max-width: 900px;
-
     margin: 100px auto;
-
     text-align: center;
 }
 
 .gear-note blockquote {
-
     font-family: 'rock salt', cursive;
-
     font-size:
         clamp(2rem,4vw,4rem);
-
     line-height: 1.4;
-
     color: rgba(20,20,20,0.85);
 }
 
 .gear-photo {
     width: 100%;
-
     max-height: 500px;
-
     object-fit: cover;
-
     border-radius: 20px;
-
     margin-bottom: 25px;
+}
+
+/* ========================================= */
+/* IMAGE */
+/* ========================================= */
+.gear-item-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
+    padding: 15px;
+}
+
+.gear-item-image img {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+/* ========================================= */
+/* MANUFACTURER LINK */
+/* ========================================= */
+.gear-item-link {
+    display: inline-block;
+    color: #79c6ff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.gear-item-link:hover {
+    color: black;
+    transform: translateX(4px);
 }
