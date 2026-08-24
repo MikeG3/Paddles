@@ -125,7 +125,7 @@ var littleCoveMarker = L.marker([45.249666, -81.611799,])
 var driftwoodCoveMarker = L.marker([45.243347, -81.575193])
     .addTo(map)
     .bindPopup(`
-    <h3>Driftwood COve</h3>
+    <h3>Driftwood Cove</h3>
     <p>Nestled between 2 access points, a quiet spot on the Bruce other than some tour boats and the occasional hiker</p>
     <img src="images/gallery/bruce/Kayak_break_in_Driftwood_cove_next_to_castle_like_shale_cliff.webp" style="width:250px;border-radius:10px;">
 `);
