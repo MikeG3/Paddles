@@ -137,6 +137,15 @@
     border-radius: 12px;
 }
 
+.gear-item-full-width-image img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
 /* ========================================= */
 /* MANUFACTURER LINK */
 /* ========================================= */
