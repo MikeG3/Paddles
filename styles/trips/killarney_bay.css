@@ -30,11 +30,13 @@
         49% {
             background-position: 72.5%;
         }
+
         51% {
             background-position: 72.5%;
         }
 
-        98% { background-position: 8%;
+        98% {
+            background-position: 8%;
         }
 
         100% {
@@ -47,6 +49,7 @@
 .killarney-chapter-2-3-divider {
     background-image: url("../../images/gallery/killarney/Indian Head Cove Entrance.webp");
 }
+
 @media (max-width: 768px) {
     .killarney-chapter-2-3-divider {
         animation: panLeftAndRight1 20s linear infinite;
@@ -64,11 +67,13 @@
         49% {
             background-position: 80%;
         }
+
         51% {
             background-position: 80%;
         }
 
-        98% { background-position: 28%;
+        98% {
+            background-position: 28%;
         }
 
         100% {
@@ -77,9 +82,9 @@
     }
 }
 
-/* ========================================= */
-/* KILLARNEY — INTO THE LANDSCAPE */
-/* ========================================= */
+/* ============================================================ */
+/* KILLARNEY — INTO THE LANDSCAPE - CARDS OVER BACKGROUND IMAGE */
+/* ============================================================ */
 .killarney-landscape {
     background-image: url("../../images/gallery/killarney/White quartzite cliffs and pine trees at the entrance in the Killarney Bay in Killarney Ontario Canada 2.webp");
     min-height: 100vh;
@@ -89,40 +94,35 @@
 }
 
 .killarney-landscape h2 {
-    background: rgba(0, 0, 0, 0.72);
+    background: rgba(0, 0, 0, 0.82);
     pointer-events: none;
     border-radius: 30px;
     padding: 2% 5%;
     text-align: center;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
 }
 
-.killarney-landscape .landcsacpe-background-content-container {
+.killarney-landscape .landscape-background-content-container {
     background: rgba(0, 0, 0, 0.82);
-    /*
-    background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.45) 0%,
-        rgba(0,0,0,0.15) 10%,
-        rgba(0,0,0,0.55) 15%,
-        rgba(0,0,0,0.72) 100%
-    );
-    */
     pointer-events: none;
     border-radius: 30px;
     padding: 2% 5%;
     margin-bottom: 5lvh;
 }
 
-/*
-@media (max-width: 768px) {
-
-    .killarney-landscape {
-        background-attachment: scroll;
-    }
-
+.landscape-background-content-container p {
+    padding-top: 5dvh;
 }
-*/
+
+
+@media (max-width: 768px) {
+    .landscape-background-content-container p {
+        text-align: center;
+    }
+}
+
 /* ========================================= */
 /* KILLARNEY — STORIES TO COME */
 /* ========================================= */
