@@ -11,6 +11,27 @@ L.tileLayer(
     }
 ).addTo(map);
 
+
+/* ========================================= */
+/*               CUSTOM MARKERS              */
+/* ========================================= */
+/* TENT MARKER ICON */
+var tentMarkerIcon = L.icon({
+    iconUrl: 'images/icons/tenticon.png', // Path to your custom image
+    iconSize: [20, 20], // Size of the icon
+    iconAnchor: [0, 0], // Point of the icon which will correspond to marker's location (usually bottom-center)
+    popupAnchor:  [0, -5]  // Point from which the popup should open relative to the iconAnchor (usually top-center)
+});
+
+/* TENT MARKER ICON */
+var launchMarkerIcon = L.icon({
+    iconUrl: 'images/icons/launchicon.png', // Path to your custom image
+    iconSize: [27, 27], // Size of the icon
+    iconAnchor: [0, 0], // Point of the icon which will correspond to marker's location (usually bottom-center)
+    popupAnchor:  [0, -5]  // Point from which the popup should open relative to the iconAnchor (usually top-center)
+});
+
+
 /* ========================================= */
 /* Algonquin Park */
 /* ========================================= */
@@ -58,6 +79,30 @@ var thousandIslandsMarker = L.marker([44.339, -76.028])
     <h3>Thousand Islands</h3>
     <p>My first solo kayak camping adventure.</p>
     <img src="images/gallery/1000iSLANDS/mermaidISland.webp" style="width:250px;border-radius:10px;">
+`);
+
+var GananoqueMarker = L.marker([44.323578, -76.166326], { icon: launchMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Thousand Islands</h3>
+    <p>Sandy beach next to the Ganonoque Mariana, used as a launch for all of my adventures in the Thousand Islands</p>
+    
+`);
+
+var AubreyIslandMarker = L.marker([44.295961, -76.192932], { icon: tentMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Thousand Islands</h3>
+    <p>Aubrey Island. My first solo kayak adventure camp site.</p>
+    
+`);
+
+var BeaurivageIslandsMarker = L.marker([44.303508, -76.188002], { icon: tentMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Thousand Islands</h3>
+    <p>Beaurivage Island. Campsite shared with friends during a return trip to the Thousand Islands</p>
+    
 `);
 
 /* ========================================= */
@@ -141,6 +186,23 @@ var benjaminMarker = L.marker([46.089078, -82.252460])
     <img src="images/adventures/Benjis2025.webp" style="width:250px;border-radius:10px;">
 `);
 
+var benjaminCampSite2023Marker = L.marker([46.095921, -82.248817], { icon: tentMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Benjamin Islands</h3>
+    <p>Camp Site for 2023 Benjamin Islands Trip</p>
+    <img src="images/gallery/benjis/5.webp" style="width:250px;border-radius:10px;">
+`);
+
+var benjaminCampSite2025Marker = L.marker([46.093700, -82.2523918], { icon: tentMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Benjamin Islands</h3>
+    <p>Camp Site for 2025 Benjamin Islands Trip</p>
+    <img src="images/gallery/benjis/20250815_214326.webp" style="width:250px;border-radius:10px;">
+`);
+
+
 /* ========================================= */
 /* SPANISH MARINA */
 /* ========================================= */
@@ -178,7 +240,7 @@ var foxMarker = L.marker([46.115635, -82.226179])
 /* ========================================= */
 /* ETCHES ISLAND */
 /* ========================================= */
-var etchesMarker = L.marker([45.970859, -81.385704])
+var etchesMarker = L.marker([45.970859, -81.385704], { icon: tentMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Etches Island</h3>
@@ -211,7 +273,7 @@ var philipEdwardMarker = L.marker([45.980336, -81.288489])
 /* ========================================= */
 /* WEST FOX ISLANDS */
 /* ========================================= */
-var westFoxMarker = L.marker([45.946689, -81.365105])
+var westFoxMarker = L.marker([45.946689, -81.365105], { icon: tentMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>West Fox Island</h3>
@@ -241,7 +303,7 @@ var centerFoxMarker = L.marker([45.950976, -81.357019])
 /* ========================================= */
 /* MARTINS ISLAND ISLANDS */
 /* ========================================= */
-var martinsIslandMarker = L.marker([45.954051, -81.354286])
+var martinsIslandMarker = L.marker([45.954051, -81.354286], { icon: tentMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Martin's Island</h3>
@@ -264,7 +326,7 @@ var eastDejardinsRockMarker = L.marker([45.956218, -81.298308])
 /* ========================================= */
 /* Thomas Bay*/
 /* ========================================= */
-var thomasBayMarker = L.marker([45.988929, -81.447313])
+var thomasBayMarker = L.marker([45.988929, -81.447313], { icon: tentMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>First campsite in Killarney</h3>
@@ -322,7 +384,7 @@ var portageMarker = L.marker([45.984476, -81.569837])
 /* ========================================= */
 /* SNUG HARBOR */
 /* ========================================= */
-var snugHarborMarker = L.marker([45.956323, -81.644473])
+var snugHarborMarker = L.marker([45.956323, -81.644473], { icon: tentMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Camping spot in Snug Harbor</h3>
@@ -373,7 +435,7 @@ var mcgregorMarker = L.marker([46.063572, -81.751782])
 /* ========================================= */
 /* MCGREGOR BAY TRIP CAMPSITE */
 /* ========================================= */
-var mcGregorCampsiteMarker = L.marker([46.026368, -81.633917])
+var mcGregorCampsiteMarker = L.marker([46.026368, -81.633917], { icon: tentMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Campsite during McGregor Bay Trip 2022</h3>
