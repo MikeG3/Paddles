@@ -4,3 +4,10 @@
 .bay-of-islands-hero-image {
     background-image: url("../../images/adventures/BayOfIslands.webp");
 }
+
+/* ========================================= */
+/* FULL SCREEN IMAGES                                    */
+/* ========================================= */
+.heavens-gate-image {
+    background-image: url("../../images/trips/bayofislands/heavensgateimage.webp");
+}
