@@ -1,0 +1,113 @@
+/* MAP LEGEND */
+
+.map-legend {
+    width: min(1000px, 90%);
+    margin: 35px auto 60px;
+    padding: 30px 35px;
+    background: rgba(15, 15, 15, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    color: #ddd;
+}
+
+.map-legend h3 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 0 25px;
+    text-align: center;
+}
+
+.map-legend-content {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.map-legend-group {
+    min-width: 250px;
+}
+
+.map-legend-group h4 {
+    color: #9bb6c9;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.map-legend-item img {
+    width: 28px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* ROUTE LINES */
+
+.map-route-line {
+    display: inline-block;
+    width: 38px;
+    height: 0;
+    border-top: 4px solid;
+    flex-shrink: 0;
+}
+
+.route-blue {
+    border-color: #3388ff;
+}
+
+.route-red {
+    border-color: #e74c3c;
+}
+
+/* INTERACTION INSTRUCTION */
+
+.map-legend-instruction {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.95rem;
+    margin: 25px 0 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    line-height: 1.7;
+}
+
+.map-legend-instruction strong {
+    color: white;
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+    .map-legend {
+        width: 90%;
+        padding: 25px 20px;
+    }
+
+    .map-legend-content {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .map-legend-group {
+        min-width: unset;
+    }
+
+    .map-legend-item {
+        font-size: 0.95rem;
+    }
+
+}
