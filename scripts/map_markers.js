@@ -73,7 +73,7 @@ var saguenayMarker = L.marker([48.298850, -70.333945])
 /* ========================================= */
 /* THOUSAND ISLANDS */
 /* ========================================= */
-var thousandIslandsMarker = L.marker([44.339, -76.028])
+var thousandIslandsMarker = L.marker([44.318900, -76.0113689])
     .addTo(map)
     .bindPopup(`
     <h3>Thousand Islands</h3>
@@ -112,7 +112,7 @@ var BeaurivageIslandsMarker = L.marker([44.303508, -76.188002], { icon: tentMark
 /* ========================================= */
 /* LIONS HEAD */
 /* ========================================= */
-var lionsHeadMarker = L.marker([44.988315, -81.250822])
+var lionsHeadMarker = L.marker([44.988315, -81.250822], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Lions Head</h3>
@@ -123,7 +123,7 @@ var lionsHeadMarker = L.marker([44.988315, -81.250822])
 /* ========================================= */
 /* DUNKS BAY */
 /* ========================================= */
-var dunksBayMarker = L.marker([45.249494, -81.643609])
+var dunksBayMarker = L.marker([45.249494, -81.643609], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Dunk's Bay</h3>
@@ -134,7 +134,7 @@ var dunksBayMarker = L.marker([45.249494, -81.643609])
 /* ========================================= */
 /* DYERS BAY */
 /* ========================================= */
-var dyersBayMarker = L.marker([45.163133, -81.336435])
+var dyersBayMarker = L.marker([45.163133, -81.336435], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Dyer's Bay</h3>
@@ -206,7 +206,7 @@ var benjaminCampSite2025Marker = L.marker([46.093700, -82.2523918], { icon: tent
 /* ========================================= */
 /* SPANISH MARINA */
 /* ========================================= */
-var spanishMarinaMarker = L.marker([46.183668, -82.360327])
+var spanishMarinaMarker = L.marker([46.183668, -82.360327], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Spanish Marina</h3>
@@ -217,7 +217,7 @@ var spanishMarinaMarker = L.marker([46.183668, -82.360327])
 /* ========================================= */
 /* MCBEAN HARBOR*/
 /* ========================================= */
-var mcbeanMarker = L.marker([46.131733, -82.192341])
+var mcbeanMarker = L.marker([46.131733, -82.192341], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Launch from McBean Harbor</h3>
@@ -446,7 +446,7 @@ var mcGregorCampsiteMarker = L.marker([46.026368, -81.633917], { icon: tentMarke
 /* ========================================= */
 /* PROVIDENCE BAY */
 /* ========================================= */
-var provBayMarker = L.marker([45.666430, -82.270689])
+var provBayMarker = L.marker([45.666430, -82.270689], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Providence Bay</h3>
@@ -457,17 +457,24 @@ var provBayMarker = L.marker([45.666430, -82.270689])
 /* ========================================= */
 /*     PRINCE EDWARD COUNTY - PRESQU'ILE    */
 /* ========================================= */
-var princeEdwardCountyMarker = L.marker([44.010694, -77.704297])
+var princeEdwardCountyMarker = L.marker([43.995711, -77.699838])
     .addTo(map)
     .bindPopup(`
     <h3>Presqu'ile Provincial Park</h3>
     <p>A park in Lake Ontario, visited during a long weekend</p>
 `);
 
+var lachineMarker = L.marker([44.021719, -77.655300], { icon: launchMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Cedardale</h3>
+    <p>Frontcountry campsite and launch spot visited during a 3 day weekend, in late summer, Labor Day 2023</p>
+`);
+
 /* ========================================= */
 /* LACHINE */
 /* ========================================= */
-var lachineMarker = L.marker([45.432760, -73.692531])
+var lachineMarker = L.marker([45.432760, -73.692531], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Lachine</h3>
@@ -488,24 +495,31 @@ var dowkerMarker = L.marker([45.402868, -73.896060])
     <img src="images/gallery/Dowker.webp" style="width:250px;border-radius:10px;">
 `);
 
+var AngellParkMarker = L.marker([45.415458, -73.883982], { icon: launchMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Angell Park</h3>
+    <p>Access point to Dowker Island</p>
+`);
+
 /* ========================================= */
 /* Les Coteaux */
 /* ========================================= */
-var lesCoteauxMarker = L.marker([45.255466, -74.204035])
+var lesCoteauxMarker = L.marker([45.255466, -74.204035], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Les Coteaux</h3>
     <p>A small stretch in the Saint-Lawrence River where the water turns turquoise</p>
 `);
 
-var CoteauDuLacMarker = L.marker([45.290485, -74.172191])
+var CoteauDuLacMarker = L.marker([45.290485, -74.172191], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Coteau-du-lac</h3>
     <p>A launch into the Saint-Lawrence River, barriered by damns, bridges and rapids to the west, and access to islands including Valleyfield to the south and to the east.</p>
 `);
 
-var IleBizard = L.marker([45.469602, -73.899101])
+var IleBizard = L.marker([45.469602, -73.899101], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Ile-Bizard</h3>
@@ -524,6 +538,13 @@ var longSaultMarker = L.marker([45.003807, -74.915544])
     <p>11 Islands in a chain in the Saint-Lawrence River</p>
 `);
 
+var millesRochesMarker = L.marker([45.014945, -74.892060], { icon: launchMarkerIcon })
+    .addTo(map)
+    .bindPopup(`
+    <h3>Milles Roches Beach</h3>
+    <p>One of many access points on the Logn Sault Island chain</p>
+`);
+
 /* ========================================= */
 /* LAC STUKLEY */
 /* ========================================= */
@@ -538,7 +559,7 @@ var stukelyMarker = L.marker([45.369463, -72.252020])
 /* ========================================= */
 /* Nicolet, Qc */
 /* ========================================= */
-var stNicoletMarker = L.marker([46.228008, -72.626776])
+var stNicoletMarker = L.marker([46.227599, -72.623829], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Nicolet</h3>
@@ -548,26 +569,12 @@ var stNicoletMarker = L.marker([46.228008, -72.626776])
 /* ========================================= */
 /* Sainte Barbe, Qc */
 /* ========================================= */
-var sainteBarbeMarker = L.marker([45.189563, -74.191540])
+var sainteBarbeMarker = L.marker([45.189563, -74.191540], { icon: launchMarkerIcon })
     .addTo(map)
     .bindPopup(`
     <h3>Sainte-Brabe, Qc</h3>
     <p>Last paddle of 2025 exploring a new area</p>
 `);
 
-
-/* ========================================= */
-/*                  CAMP SITES               */
-/* ========================================= */
-/*  NORTH BENJAMIN 1    */
-/*  NORTH BENJAMIN 2    */
-/*  MCGREGOR BAY    */
-/*  WEST FOX    */
-/*  MARTINS ISLAND    */
-/*  THOMAS BAY    */
-/*  SNUG HARBOR    */
-
-/*  AUBREY ISLAND    */
-/*  BEAUSOLEIL    */
 
 
