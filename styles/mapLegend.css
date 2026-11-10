@@ -47,6 +47,12 @@
     line-height: 1.5;
 }
 
+.black-icon img{
+    background-color:rgb(255 255 255 / 80%);
+    border-radius: 7px;
+    padding: 3px;
+}
+
 .map-legend-item img {
     width: 28px;
     height: 36px;
