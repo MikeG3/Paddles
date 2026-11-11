@@ -25,4 +25,20 @@
         margin-left: -40px;
     }
 
+    .gallery-text-container-gallery-page {
+        width: 90dvw;
+    }
+
+    .gallery-text-gallery-page p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        padding: 4% 12%;
+    }
+
+    .index-page-gallery-header-gallery-page h2 {
+        font-size: 10vw;
+        text-align: center;
+        padding: 18px 20px;
+    }
+
 }
