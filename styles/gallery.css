@@ -66,10 +66,20 @@
 /* ========================================= */
 /* LINK BUTTON */
 /* ========================================= */
+.gallery-link-1 {
+    text-align:center;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
 .gallery-link{
     text-align:center;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+.gallery-link-picture-and-quote{
+    text-decoration: none;
 }
 
 .gallery-button{
